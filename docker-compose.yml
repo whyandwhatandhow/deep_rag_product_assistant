@@ -1,0 +1,25 @@
+# D:\pyprocesses\deep_rag_product_assistant\docker-compose.yml
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: deep_rag_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: deep_rag
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Chroma 可以后面再加 volume，这里先只启动 Postgres
+volumes:
+  postgres_data:
