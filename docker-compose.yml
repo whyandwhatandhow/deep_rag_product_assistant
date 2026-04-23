@@ -1,7 +1,19 @@
-# D:\pyprocesses\deep_rag_product_assistant\docker-compose.yml
 version: '3.9'
 
 services:
+  chroma:
+    image: chromadb/chroma:latest
+    container_name: deep_rag_chroma
+    restart: unless-stopped
+    ports:
+      - "8001:8000"
+    volumes:
+      # 建议使用绝对路径或确保 . 代表 backend 所在的父目录
+      - ./data/chroma_db:/chroma/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+      - ANONYMIZED_TELEMETRY=FALSE # 建议关闭，解决你之前日志里的 telemetry 报错
+
   postgres:
     image: postgres:16-alpine
     container_name: deep_rag_postgres
@@ -20,6 +32,5 @@ services:
       timeout: 5s
       retries: 5
 
-  # Chroma 可以后面再加 volume，这里先只启动 Postgres
 volumes:
   postgres_data:

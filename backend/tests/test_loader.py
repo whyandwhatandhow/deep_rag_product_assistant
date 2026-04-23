@@ -2,7 +2,7 @@
 from pathlib import Path
 from app.ingest.loader import DocumentLoader
 from app.ingest.preprocessor import DocumentPreprocessor
-
+from app.ingest.chunker import DocumentChunker
 
 def main():
     current_file = Path(__file__).resolve()
@@ -10,7 +10,7 @@ def main():
     test_file = project_root / "data" / "raw" / "product_manual.pdf"
 
     print(f"📍 项目根目录: {project_root}")
-    print(f"📄 正在加载测试文件: {test_file}")
+    print(f"📄 正在加载测试文件: {test_file}\n")
 
     if not test_file.exists():
         print(f"❌ 文件不存在: {test_file}")
@@ -25,20 +25,25 @@ def main():
     preprocessor = DocumentPreprocessor()
     processed_docs = preprocessor.preprocess(
         raw_docs,
-        product_name="医学影像产品",  # ← 这里可以改成你真实的产品名
-        doc_type="paper"  # manual / faq / policy / paper 等
+        product_name="医学影像产品",
+        doc_type="paper"
     )
-
     print(f"✅ Preprocessor 预处理完成: {len(processed_docs)} 个干净 chunk")
 
-    if processed_docs:
-        print("\n第一个预处理后的 chunk 预览:")
-        print("=" * 80)
-        print(processed_docs[0].page_content[:400])
-        print("=" * 80)
-        print("丰富后的 metadata:")
-        print(processed_docs[0].metadata)
+    # === Step 3: 分块 ===
+    chunker = DocumentChunker(chunk_size=600, chunk_overlap=100)
+    final_chunks = chunker.chunk(processed_docs)
+    print(f"✅ Chunker 分块完成: {len(final_chunks)} 个最终 chunk")
 
+    # 展示结果
+    if final_chunks:
+        print("\n" + "="*80)
+        print("第一个最终 chunk 预览（前 400 字符）:")
+        print(final_chunks[0].page_content[:400])
+        print("="*80)
+        print("完整 metadata（关键字段）:")
+        for k, v in list(final_chunks[0].metadata.items())[:8]:
+            print(f"  {k}: {v}")
 
 if __name__ == "__main__":
     main()
