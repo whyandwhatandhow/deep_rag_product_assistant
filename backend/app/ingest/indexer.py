@@ -9,9 +9,12 @@ import uuid
 import logging
 from datetime import datetime
 import json   # ← 必须导入
+import shutil
+import os
 from app.core.config import settings
 
 logger = logging.getLogger(__name__)
+
 
 class DocumentIndexer:
     """文档索引器 - Chroma + PostgreSQL（完整版，已修复 dict → JSONB 问题）"""
@@ -26,7 +29,6 @@ class DocumentIndexer:
         logger.info(f"✅ 使用本地免费 Embedding: {settings.embedding_model}")
 
         # ==================== Chroma 向量库 ====================
-        import os
         current_dir = os.getcwd()
         logger.info(f"当前工作目录: {current_dir}")
         logger.info(f"Chroma 持久化目录（配置）: {settings.chroma_persist_directory}")
@@ -34,33 +36,54 @@ class DocumentIndexer:
         # 计算绝对路径
         chroma_path = os.path.abspath(settings.chroma_persist_directory)
         logger.info(f"Chroma 持久化目录（绝对路径）: {chroma_path}")
-        logger.info(f"Chroma 持久化目录是否存在: {os.path.exists(chroma_path)}")
         
         try:
-            # 使用原生 Chroma 客户端
+            # 尝试连接到 Chroma 数据库
+            # 注意：使用默认设置，避免设置冲突
             self.client = chromadb.PersistentClient(path=chroma_path)
             logger.info("成功连接到 Chroma 数据库")
             
-            # 检查是否存在旧的集合，如果存在则删除
-            collections = self.client.list_collections()
-            for col in collections:
-                if col.name == "product_knowledge":
-                    logger.info("删除旧的 product_knowledge 集合")
-                    self.client.delete_collection(name="product_knowledge")
-                    break
-            
-            # 创建新的集合
-            self.collection = self.client.create_collection(
-                name="product_knowledge",
-                metadata={"hnsw:space": "cosine"}
-            )
-            logger.info(f"成功创建集合: product_knowledge")
-            logger.info(f"集合当前文档数量: {self.collection.count()}")
+            # 获取或创建集合
+            collection_name = "product_knowledge"
+            try:
+                # 尝试获取已有集合
+                self.collection = self.client.get_collection(name=collection_name)
+                logger.info(f"成功获取已有集合: {collection_name}, 文档数量: {self.collection.count()}")
+            except Exception as e:
+                # 集合不存在或有其他问题，创建新的
+                logger.warning(f"获取集合失败: {e}，创建新集合")
+                # 尝试删除旧集合（如果存在）
+                try:
+                    self.client.delete_collection(name=collection_name)
+                except:
+                    pass
+                # 创建新集合
+                self.collection = self.client.create_collection(
+                    name=collection_name,
+                    metadata={"hnsw:space": "cosine"}
+                )
+                logger.info(f"成功创建新集合: {collection_name}")
+                logger.info(f"集合当前文档数量: {self.collection.count()}")
         except Exception as e:
             logger.error(f"初始化 Chroma 客户端失败: {e}")
-            import traceback
-            traceback.print_exc()
-            raise
+            # 尝试清理 Chroma 目录并重新初始化
+            try:
+                if os.path.exists(chroma_path):
+                    logger.info(f"清理 Chroma 目录: {chroma_path}")
+                    shutil.rmtree(chroma_path)
+                    os.makedirs(chroma_path, exist_ok=True)
+                # 重新初始化
+                self.client = chromadb.PersistentClient(path=chroma_path)
+                self.collection = self.client.create_collection(
+                    name="product_knowledge",
+                    metadata={"hnsw:space": "cosine"}
+                )
+                logger.info("✅ 清理并重新初始化 Chroma 成功")
+            except Exception as cleanup_error:
+                logger.error(f"清理 Chroma 目录失败: {cleanup_error}")
+                import traceback
+                traceback.print_exc()
+                raise
 
         # ==================== PostgreSQL ====================
         self.engine = create_engine(

@@ -19,8 +19,11 @@ if __name__ == "__main__":
     test_questions = [
         "AnatoMask 是什么？它的主要功能是什么？",
         "AnatoMask 是如何提高医学影像分割效果的？",
-        "AnatoMask 在哪些数据集上进行了测试？",
+        "ResNet 在哪些数据集上进行了测试？",
         "AnatoMask 与其他医学影像分割方法相比有什么优势？"
+        "ResNet 是什么？它的主要功能是什么？"
+        "ResNet 是如何提高医学影像分割效果的？"
+        "叶鸣镝是谁"
     ]
 
     for idx, q in enumerate(test_questions, 1):

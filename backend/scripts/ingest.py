@@ -62,3 +62,5 @@ if __name__ == "__main__":
         sys.exit(1)
 
     ingest_file(str(full_path), product_name=args.product, doc_type=args.type)
+
+    #D:\pyprocesses\deep_rag_product_assistant\backend\.venv\Scripts\python.exe backend\scripts\ingest.py --file "backend/data/raw/ResNet.pdf" --product "ResNet" --type "paper"

@@ -1,27 +1,59 @@
 # backend/app/graph/nodes.py
 from app.retriever.hybrid import HybridRetriever
+from app.retriever.query_rewriter import QueryRewriter
+from app.retriever.context_compressor import ContextCompressor
 from app.llm.generator import Generator
 from .state import DeepRAGState
 
-from app.reranker.reranker import Reranker     # 使用上面简化版
+from app.reranker.reranker import Reranker
 from app.retriever.schemas import ContextAssemblyResult
 import time
 
 retriever = HybridRetriever()
-reranker = Reranker()  # 默认使用 bge-reranker-large
+reranker = Reranker()
 generator = Generator()
+query_rewriter = QueryRewriter(strategy="multi-query", num_queries=3)
+context_compressor = ContextCompressor(max_context_length=4000)
 
 
 def retrieve_node(state: DeepRAGState) -> DeepRAGState:
-    """检索节点"""
-    print(f"\n[Node 1] Retrieve | Question: {state['question']}")
-    result = retriever.retrieve(
-        query=state["question"],
-        top_k=12,
-        product_filter="医学影像产品"  # 当前只支持这一个产品，后续可动态
+    """检索节点（带 Query Rewrite）"""
+    question = state["question"]
+    print(f"\n[Node 1] Retrieve | Question: {question}")
+
+    rewritten_queries = query_rewriter.rewrite(question)
+    state["rewritten_query"] = rewritten_queries[0] if rewritten_queries else question
+    print(f"[Node 1] Query Rewrite | 生成 {len(rewritten_queries)} 个查询变体")
+    for i, q in enumerate(rewritten_queries, 1):
+        print(f"  - 查询 {i}: {q}")
+
+    all_chunks = []
+    seen_texts = set()
+
+    for idx, query in enumerate(rewritten_queries):
+        result = retriever.retrieve(
+            query=query,
+            top_k=50
+        )
+        for chunk in result.chunks:
+            chunk_key = f"{chunk.document_id}_{chunk.chunk_id}"
+            if chunk_key not in seen_texts:
+                seen_texts.add(chunk_key)
+                all_chunks.append(chunk)
+
+        if idx == 0:
+            state["retrieval_result"] = result
+
+    from app.retriever.schemas import RetrievalResult
+    state["retrieval_result"] = RetrievalResult(
+        query=question,
+        chunks=all_chunks,
+        total_retrieved=len(all_chunks),
+        used_metadata_filter=False,
+        retrieval_time_ms=0
     )
-    state["retrieval_result"] = result
-    state["rewritten_query"] = state["question"]  # 暂不做复杂 rewrite
+
+    print(f"[Node 1] 合并检索完成 | 共 {len(all_chunks)} 个唯一 chunks")
     return state
 
 
@@ -35,14 +67,14 @@ def rerank_node(state: DeepRAGState) -> DeepRAGState:
     reranked = reranker.rerank(
         query=state["rewritten_query"],
         chunks=state["retrieval_result"].chunks,
-        top_k=6
+        top_k=10
     )
     state["reranked_chunks"] = reranked
     return state
 
 
 def assemble_context_node(state: DeepRAGState) -> DeepRAGState:
-    """上下文聚合节点（去重 + 简单压缩 + 结构化）"""
+    """上下文聚合节点（使用 ContextCompressor）"""
     print(f"\n[Node 3] Context Assembly | 输入 {len(state['reranked_chunks'])} 个 chunks")
 
     if not state["reranked_chunks"]:
@@ -51,20 +83,16 @@ def assemble_context_node(state: DeepRAGState) -> DeepRAGState:
         state["has_evidence"] = False
         return state
 
-    # 简单去重 + 拼接（后续可加 LLM 压缩）
-    seen = set()
-    unique_chunks = []
-    context_parts = []
+    compressed_chunks, context_str = context_compressor.compress(
+        chunks=state["reranked_chunks"],
+        query=state["question"]
+    )
 
-    for chunk in state["reranked_chunks"]:
-        if chunk.text not in seen:
-            seen.add(chunk.text)
-            unique_chunks.append(chunk)
-            context_parts.append(f"【来源：{chunk.product_name} - {chunk.doc_type}】\n{chunk.text}\n")
+    state["used_chunks"] = compressed_chunks
+    state["context_str"] = context_str
+    state["has_evidence"] = len(compressed_chunks) > 0
 
-    state["used_chunks"] = unique_chunks
-    state["context_str"] = "\n---\n".join(context_parts)
-    state["has_evidence"] = len(unique_chunks) > 0
+    print(f"[Node 3] 上下文压缩完成 | 保留 {len(compressed_chunks)} 个 chunks | 上下文长度: {len(context_str)} 字符")
     return state
 
 
@@ -83,7 +111,6 @@ def generate_node(state: DeepRAGState) -> DeepRAGState:
         context=state["context_str"]
     )
 
-    # 简单构造 citations（可后续从 used_chunks + Postgres 补充更完整信息）
     citations = []
     for chunk in state["used_chunks"]:
         citations.append({
@@ -96,5 +123,5 @@ def generate_node(state: DeepRAGState) -> DeepRAGState:
 
     state["answer"] = answer
     state["citations"] = citations
-    state["confidence"] = min(0.95, len(state["used_chunks"]) * 0.2)  # 简单置信度计算，后续可优化
+    state["confidence"] = min(0.95, len(state["used_chunks"]) * 0.2)
     return state

@@ -57,9 +57,9 @@ try:
         print(f"元数据: {meta}")
     
     # 3. 相似度搜索
-    print("\n相似度搜索结果（查询: '医学影像'）:")
+    print("\n相似度搜索结果（查询: 'FRB'）:")
     # 使用与索引时相同的嵌入模型生成查询向量
-    query_text = "医学影像"
+    query_text = "FRB"
     query_embedding = embeddings.embed_query(query_text)
     print(f"查询向量维度: {len(query_embedding)}")
     

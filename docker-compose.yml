@@ -1,6 +1,42 @@
 version: '3.9'
 
 services:
+  fastapi:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: deep_rag_fastapi
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
+      - DEEPSEEK_API_BASE=${DEEPSEEK_API_BASE:-https://api.deepseek.com}
+      - LLM_MODEL=${LLM_MODEL:-deepseek-chat}
+      - EMBEDDING_MODEL=${EMBEDDING_MODEL:-BAAI/bge-small-zh-v1.5}
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=deep_rag
+      - CHROMA_HOST=chroma
+      - CHROMA_PORT=8000
+    volumes:
+      - ./data:/app/data
+      - ./backend/data:/app/backend/data
+    depends_on:
+      chroma:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
   chroma:
     image: chromadb/chroma:latest
     container_name: deep_rag_chroma
@@ -8,11 +44,15 @@ services:
     ports:
       - "8001:8000"
     volumes:
-      # 建议使用绝对路径或确保 . 代表 backend 所在的父目录
       - ./data/chroma_db:/chroma/chroma
     environment:
       - IS_PERSISTENT=TRUE
-      - ANONYMIZED_TELEMETRY=FALSE # 建议关闭，解决你之前日志里的 telemetry 报错
+      - ANONYMIZED_TELEMETRY=FALSE
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/api/v1/heartbeat || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   postgres:
     image: postgres:16-alpine
@@ -34,3 +74,4 @@ services:
 
 volumes:
   postgres_data:
+  chroma_data:

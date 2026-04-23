@@ -13,7 +13,22 @@ from .schemas import RetrievalResult, RetrievedChunk
 
 
 class HybridRetriever:
+    """混合检索器（单例模式）"""
+    
+    _instance = None
+    _initialized = False
+    
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+        return cls._instance
+    
     def __init__(self):
+        if HybridRetriever._initialized:
+            return
+        
+        HybridRetriever._initialized = True
+        
         # Embedding 函数（必须和 ingest 时一致）
         self.embedding_function = HuggingFaceEmbeddings(
             model_name=settings.embedding_model,  # BAAI/bge-small-zh-v1.5
