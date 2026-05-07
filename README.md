@@ -124,6 +124,18 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
 # 生产模式
 gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker
+
+# 导入配论文配置
+python batch_ingest.py --dir "backend/data/raw/Al-Zn-Mg" --product "Al-Zn-Mg 合金" --type "paper" --recursive
+
+# 从向量数据库提取结构化合金数据
+python batch_alloy_extractor.py
+
+# 将提取的数据导入SQLite数据库
+python import_to_database.py
+
+# 训练预测模型
+python ml_quick_start.py
 ```
 
 ### API 接口
