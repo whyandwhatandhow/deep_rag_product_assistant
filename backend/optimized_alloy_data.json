@@ -1,0 +1,280 @@
+[
+  {
+    "alloy_id": "ZnMg1.6_001",
+    "alloy_system": "Zn-Mg",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": [],
+    "institution": null,
+    "composition": {
+      "zinc": 98.4,
+      "magnesium": 1.6,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": {}
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "aging_temperature": null,
+      "aging_time": null
+    },
+    "microstructure": {
+      "phases": [
+        "MgZn2"
+      ],
+      "grain_size": null,
+      "precipitates": null,
+      "texture": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": 97.0,
+      "elastic_modulus": null
+    },
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "Hardness increases with increasing Mg-content, reaching 97 HV5 for Zn–1.6 Mg alloy.",
+      "MgZn2 phase is present in as-extruded Zn–0.8 Mg alloy."
+    ],
+    "optimization_goals": [],
+    "notes": null
+  },
+  {
+    "alloy_id": "ZnMg1.5_001",
+    "alloy_system": "Al-Zn-Mg-Cu",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": [],
+    "institution": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": {}
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "aging_temperature": null,
+      "aging_time": null
+    },
+    "microstructure": {
+      "phases": [
+        "η' (metastable phase)",
+        "η (equilibrium phase)",
+        "GPZs (Guinier–Preston zones)"
+      ],
+      "grain_size": null,
+      "precipitates": null,
+      "texture": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null
+    },
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "The precipitation sequence of Al-Zn-Mg-Cu alloy during aging is: supersaturated solid solution → GPZs → η' → η, with η' being the main strengthening phase.",
+      "The Zn/Mg ratio significantly affects the aging response and mechanical properties; three alloys with Zn/Mg ratios of 1.5, 1.8, and 2.1 were studied.",
+      "Pre-rolling (Pre-CR) can improve mechanical properties of high-Zn-content Al-Zn-Mg-Sc alloys.",
+      "Mg addition to Al-Zn alloys promotes dynamic precipitation of Zn and η phases during hot rolling."
+    ],
+    "optimization_goals": [],
+    "notes": null
+  },
+  {
+    "alloy_id": "ZnCu2Ti0.05_001",
+    "alloy_system": "Zn-Cu-Ti",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": [],
+    "institution": null,
+    "composition": {
+      "zinc": 97.95,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "Cu": "2 wt%",
+        "Ti": "0.05 wt%"
+      },
+      "impurities": {}
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "casting_method": "electric resistance furnace, poured into steel mold preheated at 150°C",
+      "cooling_rate": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "aging_temperature": null,
+      "aging_time": null
+    },
+    "microstructure": {
+      "phases": null,
+      "grain_size": null,
+      "precipitates": null,
+      "texture": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null
+    },
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "The effects of Ti on microstructure, mechanical properties and biodegradation behavior of Zn-2Cu alloy were investigated.",
+      "Zn-2Cu-xTi (x = 0, 0.05 and 0.1 wt%) alloys were prepared from pure Zn, pure copper, and Cu-22Ti master alloy."
+    ],
+    "optimization_goals": [],
+    "notes": null
+  },
+  {
+    "alloy_id": "Zn1Mg_001",
+    "alloy_system": "Zn-Mg-RE",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": [],
+    "institution": null,
+    "composition": {
+      "zinc": 98.9,
+      "magnesium": 1.0,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "RE": "0.1 (Er, Dy, or Ho)"
+      },
+      "impurities": {}
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "casting_method": "gravity casting",
+      "cooling_rate": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "aging_temperature": null,
+      "aging_time": null
+    },
+    "microstructure": {
+      "phases": [
+        "Zn matrix",
+        "Mg-containing intermetallic",
+        "RE-containing phases"
+      ],
+      "grain_size": null,
+      "precipitates": null,
+      "texture": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null
+    },
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "Zn–1Mg–0.1RE (RE = Er, Dy, Ho) alloys were prepared and evaluated for biodegradable implant applications.",
+      "The study comprehensively evaluated mechanical properties, corrosion behavior, hemolysis rate, APTT, and cytotoxicity.",
+      "Alloying with RE elements aims to improve mechanical performance of Zn-Mg alloys."
+    ],
+    "optimization_goals": [],
+    "notes": null
+  },
+  {
+    "alloy_id": "Mg97.94Zn0.56Y1.5_001",
+    "alloy_system": "Mg-Zn-Y",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": [],
+    "institution": null,
+    "composition": {
+      "zinc": 0.56,
+      "magnesium": 97.94,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "Y": 1.5
+      },
+      "impurities": {}
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "aging_temperature": null,
+      "aging_time": null
+    },
+    "microstructure": {
+      "phases": [
+        "α-Mg",
+        "Zn- and Y-rich stacking faults"
+      ],
+      "grain_size": "700-1200 nm",
+      "precipitates": null,
+      "texture": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": 362.0,
+      "elongation": 18.2,
+      "hardness": null,
+      "elastic_modulus": null
+    },
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "The optimal tensile properties (yield strength and elongation of 362 MPa and 18.2%, respectively) are achieved for the Mg97.94Zn0.56Y1.5 alloy extruded at 1.9 s−1.",
+      "Inhomogeneous internal strain distribution in the bimodal microstructure is of key importance for mechanical performance."
+    ],
+    "optimization_goals": [],
+    "notes": null
+  }
+]

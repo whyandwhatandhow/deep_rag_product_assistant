@@ -1,0 +1,4971 @@
+[
+  {
+    "alloy_id": "Mg-Zn-La-Ca_001",
+    "alloy_system": "Mg-Zn-La",
+    "year": 2020,
+    "paper_title": "Significant improvement in mechanical properties of Mg-Zn-La alloy by minor Ca addition",
+    "doi": "10.1016/j.matchar.2020.110130",
+    "authors": [
+      "Xin Wang",
+      "Yuzhou Du",
+      "Dongjie Liu",
+      "Bailing Jiang"
+    ],
+    "institution": "School of Materials Science and Technology, Xi'an University of Technology",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "La": "present",
+        "Ca": "minor addition"
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": null,
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "Minor Ca addition significantly improves mechanical properties of Mg-Zn-La alloy"
+    ],
+    "optimization_goals": [
+      "Improve mechanical properties of Mg-Zn-La alloy"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from the paper title and abstract. Exact composition (wt%) and numerical property values are not provided in the extracted sections."
+  },
+  {
+    "alloy_id": "Zn-2Cu-0.8Mg-0.2Gd_001",
+    "alloy_system": "Zn-Cu-Mg-Gd",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": 0.8,
+      "aluminum": null,
+      "copper": 2.0,
+      "silver": null,
+      "other_elements": {
+        "Gd": 0.2
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": {
+      "ultimate_tensile_strength": 394.0,
+      "yield_strength": null,
+      "elongation": 1.1,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "Zn-2Cu-0.8Mg-0.2Gd alloy has the maximum tensile strength of 394 MPa and maximum elongation of 1.1%, which are 1.3 and 1.5 times, respectively, when without addition."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from Section 2 of the provided paper content. The alloy composition is inferred from the text 'Zn-2Cu-0.8 Mg-0.2Gd alloy'. The zinc content is not explicitly stated but is assumed to be the balance. No other processing, microstructure, or testing details are available in the provided excerpts."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": null,
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided paper content consists of fragmented sections from multiple different research papers (Al-Zn-Mg, Mg-Zn-La, Mg-Sc-Zn, Zn-Mg-RE, Mg-5Ga, Zn-Mn, etc.) with no single coherent alloy composition or study to extract structured data from. No complete paper title, DOI, authors, or specific alloy composition with properties could be reliably identified from the given snippets."
+  },
+  {
+    "alloy_id": "Mg-Zn-Gd-Zr_001",
+    "alloy_system": "Mg-Zn-Gd-Zr",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": "College of Materials Science and Engineering, Northeastern University, 314 Mailbox, Shenyang 110819, People’s Republic of China",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "Gd": "variable",
+        "Zr": "present"
+      },
+      "impurities": null,
+      "composition_range": {
+        "Zn/Gd mass ratio": {
+          "min": 0.27,
+          "max": 1.4
+        }
+      }
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": "casting",
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "casting",
+        "indirect hot extrusion"
+      ]
+    },
+    "microstructure": {
+      "phases": [
+        "W (Mg3Gd2Zn3)",
+        "X (Mg12GdZn)"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "With the Zn/Gd ratio increases from 0.27 to 1.4, second phases change from W (Mg3Gd2Zn3), X (Mg12GdZn) and ..."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "基于有限证据推测：论文标题和完整作者信息未在提供的片段中明确给出，但根据Section 1内容，该论文研究Mg-Zn-Gd-Zr合金的显微组织和力学性能，通过铸造和后续间接热挤压制备。Zn/Gd质量比在0.27到1.4之间变化时，第二相从W相和X相转变。具体成分含量（如Zn、Gd、Zr的wt%）未提供。"
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Zn-Mg-RE",
+    "year": 2024,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": 1.0,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "RE (Er, Dy, Ho)": "0.1 wt%"
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": "melted and cast",
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Zn–1Mg–0.1RE (RE = Er, Dy, and Ho) alloys were prepared and evaluated for corrosion behavior, hemolysis rate, APTT, and cytotoxicity.",
+      "The study aims to provide technical support for future development of REE-containing Zn alloys."
+    ],
+    "optimization_goals": [
+      "Improve mechanical properties of Zn alloys for biodegradable implant applications."
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on Section 9 of the provided content. The paper mentions evaluation of corrosion behavior, hemolysis rate, APTT, and cytotoxicity, but specific numerical values for mechanical or corrosion properties are not provided in the extracted text."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": null,
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided text consists of fragmented sections from multiple different research papers on various zinc and aluminum alloys. No single alloy composition, processing route, or complete set of properties is fully described in one coherent section. Therefore, it is impossible to extract a structured dataset for a specific alloy without making unsupported assumptions. The text mentions multiple alloys (e.g., Zn-2Cu-0.8Mg-based, Zn-1.5Cu-xAg-0.1Zr, Al-Zn-Mg-Cu, Zn-1Mg, Zn-3Cu-0.5Fe, Zn-4Ag, Zn-4Cu, Zn-0.5Mg, Zn-1Mg-0.1Mn, ZTM641−2Al) but provides incomplete or conflicting data for each."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Al-Zn-Mg",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": 760.0,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "The investigation reveals composition–structure–property correlations in dilute Al-Zn-Mg alloys, demonstrating how Zn/Mg stoichiometry controls the balance between strength and corrosion resistance.",
+      "Alloys were produced by melting industrial pure Al, pure Zn, pure Mg, and Al-Cu, Al-Mn, Al-Cr, and Al-Zr intermediate alloys at approximately 760 °C."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided paper content is fragmented and incomplete. Only Section 1 and Section 2 contain specific information about an Al-Zn-Mg alloy system and a melting temperature of 760°C. No specific composition, mechanical properties, corrosion properties, or other structured data could be extracted from the given snippets. The alloy system is inferred from Section 1 and Section 15."
+  },
+  {
+    "alloy_id": "ZnCa2_001",
+    "alloy_system": "Zn-Ca",
+    "year": 2018,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "Ca": "2 wt%"
+      },
+      "impurities": null,
+      "composition_range": {
+        "Ca": {
+          "min": 0.5,
+          "max": 3.0
+        }
+      }
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": 90.94,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": 0.074,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": "weight loss",
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Zn-Ca alloys exhibited much stronger hardness and faster corrosion rate than pure Zn",
+      "Zn-2Ca alloy presented superior comprehensive performance with 90.94 HV hardness and 0.074 mm/year corrosion rate"
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "基于有限证据推测：合金为Zn-2Ca，数据来自Section 2摘要。硬度单位为HV，腐蚀速率单位为mm/year。"
+  },
+  {
+    "alloy_id": "Zn1Mg0.1RE_001",
+    "alloy_system": "Zn-Mg-RE",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": 98.9,
+      "magnesium": 1.0,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "RE (Er, Dy, Ho)": 0.1
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": "melted and cast",
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Zn–1Mg and Zn–1Mg–0.1RE (RE = Er, Dy, and Ho) alloys were prepared for evaluation of mechanical properties, corrosion behavior, hemolysis rate, APTT, and cytotoxicity."
+    ],
+    "optimization_goals": [
+      "Improve mechanical performance of Zn alloys for biodegradable implants"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from Section 3 only. Composition is inferred from 'Zn–1Mg and Zn–1Mg–0.1RE (RE = Er, Dy, and Ho) alloys (wt.%)'. Zn content calculated as balance (100 - 1 - 0.1 = 98.9 wt%). No specific numerical results for properties are provided in the extracted text."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided text consists of fragmented sections from multiple research papers on zinc alloys, but no single alloy composition is fully described with all required fields. The content mentions various alloys (e.g., Zn-1.5Cu-xAg-0.1Zr, Zn-4Cu, Zn-2Cu-0.8Mg-based, Zn-3Cu-1Fe, Zn-xMn, Zn-0.5Al, Zn-1Al, Zn-1Mg, Zn-3Cu-0.5Fe, Zn-4Ag, Zn-1.5Cu-1.0Ag-0.1Zr) and their mechanical properties, but lacks complete metadata (title, authors, year, DOI) and detailed processing/microstructure data for any single alloy. Therefore, most fields are null."
+  },
+  {
+    "alloy_id": "Zn15Al_001",
+    "alloy_system": "Zn-Al",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": 85.0,
+      "magnesium": null,
+      "aluminum": 15.0,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": 275.0,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "annealing",
+        "air cooling"
+      ]
+    },
+    "microstructure": {
+      "phases": [
+        "η phase",
+        "α particles"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": "granular α particles distributed homogeneously in η phase matrix (annealed below 275°C); lamellar microstructure with isolated η grains (annealed above 275°C)",
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Annealing below 275°C results in homogeneous distribution of granular α particles in η phase matrix.",
+      "Annealing above 275°C followed by air cooling produces lamellar microstructure with isolated η grains."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on Section 5 of the provided paper content. The alloy is Zn-15wt%Al. Annealing temperature threshold is 275°C. Cooling method after annealing is air cooling."
+  },
+  {
+    "alloy_id": "Zn-4Cu-0.02Li_001",
+    "alloy_system": "Zn-Cu-Li",
+    "year": 2021,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": "Department of Materials Science and Engineering, College of Engineering, Peking University, Beijing 100871, China",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": 4.0,
+      "silver": null,
+      "other_elements": {
+        "Li": 0.02
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "cold-rolled"
+      ]
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Cu addition and rolling jointly alter the corrosion mode from localized to uniform.",
+      "Cold-rolled Zn–4Cu–0.02Li possesses proper mechanical and degradation properties."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "基于有限证据推测：合金成分来自Section 3中的'Cold-rolled Zn–4Cu–0.02Li'，年份来自同一部分的文章历史（Received 9 September 2021），机构来自Section 3的地址信息。其他具体数值（如力学性能、腐蚀速率等）在提供的证据中未明确给出。"
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Zn and its alloys are promising biodegradable metallic materials for clinical applications due to suitable degradation rate, bioresorbable degradation products, and excellent biocompatibility.",
+      "The strength and ductility of Zn alloys are generally below the mechanical benchmark for biodegradable implants (e.g., bone fixtures and stents).",
+      "Alloying elements such as Mg, Ca, Sr, Mn, Li, Ag, Cu, Fe, and rare earth elements (Er, Dy, Ho) are used to improve mechanical properties of Zn.",
+      "Zn-2Ca alloy showed superior comprehensive performance with hardness 90.94 HV and corrosion rate ~0.074-0.084 mm/year.",
+      "As-rolled Zn-1Mg alloy with 0.1 wt% Mn addition achieved UTS of 300 MPa and elongation of 25%.",
+      "Multi-component Zn alloys (e.g., Zn-Cu-Ag, Zn-Mg-Sr, Zn-Li-Mg) are being developed to optimize mechanical, antibacterial, and degradation properties."
+    ],
+    "optimization_goals": [
+      "Improve mechanical strength and ductility of Zn alloys to meet benchmarks for biodegradable implants.",
+      "Achieve suitable degradation rate and biocompatibility for clinical applications.",
+      "Optimize composition and microstructure for reproducibility and biocompatibility."
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided content consists of fragmented sections from multiple research papers (abstracts, keywords, author lists, and partial results). No single complete paper is fully presented. Therefore, most fields are null. Key findings are extracted from the available text. Specific numerical data (e.g., UTS=300 MPa, elongation=25%) are from Section 14, and Zn-2Ca data from Section 10."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided text consists of fragmented sections from multiple different research papers on zinc and aluminum alloys. No single, complete alloy composition, processing route, or set of properties could be extracted from the disjointed evidence. Each section appears to describe a different alloy system (e.g., Zn-Cu-Ag-Zr, Zn-2Cu-0.8Mg, Al-5Zn-2.6Mg, Zn-Ag based, Zn-Mg-Mn, etc.) without providing a full, coherent dataset for any one of them."
+  },
+  {
+    "alloy_id": "Zn15Al_001",
+    "alloy_system": "Zn-Al",
+    "year": 2020,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": 85.0,
+      "magnesium": null,
+      "aluminum": 15.0,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": 275.0,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "annealing",
+        "air cooling"
+      ]
+    },
+    "microstructure": {
+      "phases": [
+        "α (granular)",
+        "η phase matrix",
+        "lamellar microstructure",
+        "isolated η grains"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Annealing below 275°C results in granular α particles distributed homogeneously in η phase matrix.",
+      "Annealing above 275°C followed by air cooling results in lamellar microstructure with isolated η grains."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on Section 4 of the provided content. The alloy is Zn-15wt%Al. The paper title, authors, DOI, and institution are not visible in the extracted snippet. The year 2020 is inferred from the reference [81] in Section 13, which cites a paper on Zn-15Al from 2020."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided text consists of fragmented sections from multiple research papers (abstracts, keywords, and partial methods/results). No single, complete alloy composition, processing route, or set of properties could be extracted from the given evidence. The content mentions various alloy systems (Zn-Al, Zn-Mg-RE, Al-Zn-Mg, Zn-Ag, Zn-Cu-Ag, Zn-Mg-Sr, Zn-Li-Mg, Zn-1Mg-0.1RE, ZA4-1, ZA4-3, ZA6-1, Mg-Zn-La, Mg-5Ga) but lacks the specific, unified data required to populate the requested JSON fields for a single alloy."
+  },
+  {
+    "alloy_id": "ZnCa0.5_001",
+    "alloy_system": "Zn-Ca",
+    "year": 2018,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": {
+        "Ca": {
+          "min": 0.5,
+          "max": 3.0
+        }
+      }
+    },
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": 90.94,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": 0.074,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": null,
+    "key_findings": [
+      "Zn-Ca alloys exhibited much stronger hardness and faster corrosion rate than pure Zn.",
+      "Zn-2Ca alloy presented superior comprehensive performance with hardness 90.94 ± 1.71 HV and corrosion rate 0.074 ± 0.010 mm/year (weight loss)."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from Section 1 only. The paper content is fragmented; only the abstract of a Zn-Ca alloy study is available. Composition range is for Ca (0.5 to 3 wt%), but exact Zn content is not specified (balance Zn assumed). Hardness and corrosion rate values are for Zn-2Ca alloy specifically. Corrosion rate unit is mm/year (weight loss)."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided content consists of fragmented sections from multiple research papers (abstracts, keywords, author affiliations, etc.) but does not contain a complete, coherent research paper with specific alloy composition, processing, properties, or testing data. Therefore, no structured data can be extracted for a single alloy. The content mentions various Zn-based and Mg-Zn alloys (e.g., Zn-Mg-RE, Zn-Ca, Zn-Mn, Zn-Fe, Zn-Al, Mg-Zn-La, Mg-Zn-Sn, Mg-Zn-Cu, Mg-5Ga) but lacks the detailed experimental results needed to populate the requested fields."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided text consists of fragmented sections from multiple research papers on Zn-based alloys, but no single complete alloy composition, processing, or property set is fully described in one coherent paper. Therefore, no structured data can be reliably extracted for a specific alloy."
+  },
+  {
+    "alloy_id": "Zn15Al_001",
+    "alloy_system": "Zn-Al",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": 85.0,
+      "magnesium": null,
+      "aluminum": 15.0,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": 275.0,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "annealing",
+        "air cooling"
+      ]
+    },
+    "microstructure": {
+      "phases": [
+        "η phase",
+        "α particles"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": "granular α particles distributed homogeneously in η phase matrix (below 275°C); lamellar microstructure with isolated η grains (above 275°C)",
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Annealing below 275°C results in homogeneous distribution of granular α particles in η phase matrix",
+      "Annealing above 275°C followed by air cooling produces lamellar microstructure with isolated η grains"
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on Section 3 of the provided content. The paper investigates the effect of heat treatment on microstructural and mechanical properties of Zn-15wt%Al alloy. Only composition and annealing temperature (275°C as a threshold) are explicitly stated; other processing parameters and quantitative mechanical properties are not provided in the extracted text."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Zn-Al",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Zn-Al based alloys are designed for applications in structural and decorative parts for automotive, electrical and electronic industries, as well as general-purpose machinery requiring high manufacturing precision.",
+      "Copper and magnesium are added into Zn-Al alloys to further improve mechanical performances and corrosion resistance."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided paper content is fragmented and lacks specific numerical data for a single alloy. Section 4 mentions Zn-Al based alloys with Cu and Mg additions, but no exact composition, processing parameters, or properties are given. The content appears to be a collection of abstracts and sections from multiple papers, not a single coherent study. Based on limited evidence, the alloy system is identified as Zn-Al, but all other fields are null due to insufficient data."
+  },
+  {
+    "alloy_id": "ZnCa0.5_001",
+    "alloy_system": "Zn-Ca",
+    "year": 2018,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": {
+        "Ca": {
+          "min": 0.5,
+          "max": 3.0
+        }
+      }
+    },
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": 90.94,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": 0.074,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": null,
+    "key_findings": [
+      "Zn-Ca alloys exhibited much stronger hardness and faster corrosion rate than pure Zn.",
+      "Zn-2Ca alloy presented superior comprehensive performance with hardness 90.94 ± 1.71 HV and corrosion rate 0.074 ± 0.010 mm/year (weight loss)."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from Section 1 only. The paper title, authors, institution, and other detailed processing/microstructure data are not provided in the extracted content. The corrosion rate of 0.084 ± 0.021 appears to be a second measurement (possibly from another method) but the unit is cut off."
+  },
+  {
+    "alloy_id": "Zn15Al_001",
+    "alloy_system": "Zn-Al",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": 85.0,
+      "magnesium": null,
+      "aluminum": 15.0,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": 275.0,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "annealing",
+        "air cooling"
+      ]
+    },
+    "microstructure": {
+      "phases": [
+        "η phase",
+        "α particles"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": "granular α particles distributed homogeneously in η phase matrix (annealed below 275°C); lamellar microstructure with isolated η grains (annealed above 275°C)",
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Annealing below 275°C results in homogeneous distribution of granular α particles in η phase matrix.",
+      "Annealing above 275°C followed by air cooling produces lamellar microstructure with isolated η grains."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Data extracted from Section 3 of the provided paper content, which specifically investigates Zn-15wt%Al alloy. Composition is inferred from the keyword 'Zn-15Al' and the abstract mentioning 'Zn-15wt%Al'. Annealing temperature threshold of 275°C is explicitly stated."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "Zn and its alloys are promising biodegradable metallic materials for clinical applications due to suitable degradation rate, bioresorbable degradation products, and excellent biocompatibility.",
+      "The strength and ductility of Zn alloys are generally below the mechanical benchmark for biodegradable implants (e.g., bone fixtures and stents).",
+      "Alloying elements such as Mg, Cu, Al, and rare earth elements (RE) are added to improve mechanical performance and corrosion resistance.",
+      "Commercial Zn alloys (e.g., ZA4-1, ZA4-3, ZA6-1) show increased strength and superb elongation compared to pure Zn after hot extrusion.",
+      "Zn/Mg stoichiometry controls the balance between strength and corrosion resistance in dilute Al-Zn-Mg alloys.",
+      "Zn-RE alloys (e.g., Zn-1Mg-0.1RE with Er, Dy, Ho) are evaluated for mechanical properties, corrosion behavior, hemolysis rate, APTT, and cytotoxicity.",
+      "Structural design of stents can compensate for insufficient mechanical performance of biodegradable Zn alloys.",
+      "High-pressure torsion and other advanced processing techniques are applied to improve strength-toughness of Zn alloys."
+    ],
+    "optimization_goals": [
+      "Improve mechanical strength and ductility of Zn alloys to meet benchmarks for biodegradable implants.",
+      "Enhance corrosion resistance and biocompatibility of Zn alloys.",
+      "Optimize composition (e.g., Zn/Mg stoichiometry) to balance strength and corrosion resistance.",
+      "Develop Zn alloys with suitable degradation rate for clinical applications."
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided paper content consists of fragmented sections from multiple research papers, lacking a single coherent study. No specific alloy composition, processing parameters, or quantitative property data could be extracted from the given text. The key findings and optimization goals are inferred from abstracts and keywords across sections."
+  },
+  {
+    "alloy_id": "ZnCa2_001",
+    "alloy_system": "Zn-Ca",
+    "year": 2018,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "Ca": "2 wt%"
+      },
+      "impurities": null,
+      "composition_range": {
+        "Ca": {
+          "min": 0.5,
+          "max": 3.0
+        }
+      }
+    },
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": 90.94,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": 0.074,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": "weight loss",
+      "test_medium": null
+    },
+    "testing_conditions": null,
+    "key_findings": [
+      "Zn-Ca alloys exhibited much stronger hardness and faster corrosion rate than pure Zn.",
+      "Zn-2Ca alloy presented superior comprehensive performance with hardness 90.94 ± 1.71 HV and corrosion rate 0.074 ± 0.010 mm/year (weight loss)."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from Section 1 only. The paper title, authors, and other details are not visible in the provided content. The corrosion rate of 0.084 ± 0.021 appears to be from a different measurement method (possibly electrochemical) but the unit is cut off."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Zn and its alloys are promising biodegradable metallic materials for clinical applications due to suitable degradation rate and biocompatibility.",
+      "Pure Zn has low mechanical strength (UTS ≤30 MPa, elongation ≤0.25-3%), insufficient for implant applications.",
+      "Alloying elements (e.g., Mg, Ca, Sr, Mn, Cu, Ag, Ge, RE) and thermomechanical processing (e.g., rolling, extrusion) can improve mechanical properties of Zn alloys.",
+      "As-rolled Zn-1Mg alloy with 0.1 wt% Mn showed improved UTS (from 210 to 300 MPa) and elongation (from 8% to 25%).",
+      "Commercial Zn alloys (ZA4-1, ZA4-3, ZA6-1) after hot extrusion at 200°C showed increased strength and elongation compared to pure Zn.",
+      "Minor Ca addition significantly improved mechanical properties of Mg-Zn-La alloy via dynamic recrystallization and texture modification."
+    ],
+    "optimization_goals": [
+      "Improve strength and ductility of Zn alloys to meet mechanical benchmarks for biodegradable implants (e.g., UTS >300 MPa for stents).",
+      "Achieve suitable corrosion resistance and biocompatibility for clinical applications."
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided content consists of fragmented sections from multiple research papers (abstracts, introductions, keywords) rather than a single complete paper. No single alloy composition, processing parameters, or quantitative mechanical/corrosion data could be fully extracted from the given text. The information is insufficient to populate most fields with certainty."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided text consists of fragmented sections from multiple research papers on zinc alloys, but no single alloy composition, processing route, or complete set of properties is fully described in one coherent section. The content mentions various alloys (e.g., Zn-2Cu-0.8Mg-based with Sr/Gd, Zn-1.5Cu-xAg-0.1Zr, Zn-0.5Mg, Zn-4Cu, Zn-1Mg-Mn, Zn-Mn, Zn-Li) and their properties, but lacks the specific identifiers (alloy_id, paper title, DOI, authors, institution) and complete processing/microstructure details required to populate the JSON fields. Therefore, all fields are set to null or empty."
+  },
+  {
+    "alloy_id": "Zn15Al_001",
+    "alloy_system": "Zn-Al",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": 85.0,
+      "magnesium": null,
+      "aluminum": 15.0,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": 275.0,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "annealing",
+        "air cooling"
+      ]
+    },
+    "microstructure": {
+      "phases": [
+        "α (granular)",
+        "η (matrix)",
+        "lamellar microstructure"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Annealing below 275°C results in granular α particles homogeneously distributed in η phase matrix.",
+      "Annealing above 275°C followed by air cooling produces a lamellar microstructure with isolated η grains."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from Section 4 of the provided paper content. The alloy is Zn-15wt%Al. Annealing temperature threshold is 275°C, with different microstructures observed above and below this temperature."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Zn-Al",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Zn-Al based alloys are designed for applications in structural and decorative parts for automotive, electrical and electronic industries.",
+      "Elements like copper and magnesium are added into Zn-Al alloys to further improve mechanical performances and corrosion resistance."
+    ],
+    "optimization_goals": [
+      "Improve mechanical performance of Zn alloys for biodegradable implants.",
+      "Enhance corrosion resistance of Zn-Al alloys."
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided paper content is fragmented and lacks specific numerical data for a single alloy. The alloy system is inferred from Section 2 mentioning Zn-Al based alloys. No specific composition, processing parameters, or quantitative properties are extractable from the given text."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided paper content consists of multiple fragmented sections from different research papers, none of which contain a complete, coherent description of a single zinc or aluminum alloy with extractable structured data. Each section appears to be a partial abstract, introduction, or reference list from various unrelated studies. No specific alloy composition, processing parameters, or properties can be reliably extracted from this content."
+  },
+  {
+    "alloy_id": "ZnCa0.5_001",
+    "alloy_system": "Zn-Ca",
+    "year": 2018,
+    "paper_title": null,
+    "doi": null,
+    "authors": [
+      "Genwen Mao",
+      "Xinglong Zhu",
+      "L. Yang",
+      "W. Bian"
+    ],
+    "institution": "Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences; Xi'an University of Technology",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "Ca": "0.5, 1, 2, 3 wt%"
+      },
+      "impurities": null,
+      "composition_range": {
+        "Ca": {
+          "min": 0.5,
+          "max": 3.0
+        }
+      }
+    },
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": 90.94,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": 0.074,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": "weight loss",
+      "test_medium": null
+    },
+    "testing_conditions": null,
+    "key_findings": [
+      "Zn-Ca alloys exhibit much stronger hardness and faster corrosion rate than pure Zn.",
+      "Zn-2Ca alloy presented superior comprehensive performance with hardness 90.94 ± 1.71 HV and corrosion rate 0.074 ± 0.010 mm/year (weight loss)."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "基于有限证据推测：论文标题、DOI、完整作者列表、加工工艺、微观结构等未在提供的片段中明确给出。硬度值对应Zn-2Ca合金，腐蚀速率对应Zn-2Ca合金的失重法结果。"
+  },
+  {
+    "alloy_id": "Zn-2Cu-0.8Mg-0.2Gd_001",
+    "alloy_system": "Zn-Cu-Mg-Gd",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": 0.8,
+      "aluminum": null,
+      "copper": 2.0,
+      "silver": null,
+      "other_elements": {
+        "Gd": 0.2
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": 394.0,
+      "yield_strength": null,
+      "elongation": 1.1,
+      "hardness": 145.0,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Zn-2Cu-0.8Mg-0.2Gd alloy has maximum tensile strength of 394 MPa and elongation of 1.1%",
+      "Zn-2Cu-0.8Mg-0.1Sr-0.1Gd alloy has highest hardness of 145 HV",
+      "Adding Sr and Gd improves microhardness and tensile strength of Zn-2Cu-0.8Mg alloy"
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from Section 2 of the provided paper content. The alloy composition is Zn-2Cu-0.8Mg with 0.2Gd addition. Mechanical properties are from as-cast or as-processed state (processing details not specified)."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided paper content consists of fragmented sections from multiple different research papers (e.g., Zn-Mg-RE, Mg-Zn-La, Al-Zn-Mg, commercial Zn alloys, Zn-Cu, Mg-Sc-Zn). No single alloy composition, processing, or property data is fully extractable from the given snippets. All fields are set to null due to insufficient and inconsistent evidence."
+  },
+  {
+    "alloy_id": "ZnCa0.5_001",
+    "alloy_system": "Zn-Ca",
+    "year": 2018,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "calcium": "0.5, 1, 2, 3 wt%"
+      },
+      "impurities": null,
+      "composition_range": {
+        "calcium": {
+          "min": 0.5,
+          "max": 3.0
+        }
+      }
+    },
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": 90.94,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": 0.074,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": null,
+    "key_findings": [
+      "Zn-Ca alloys exhibited much stronger hardness and faster corrosion rate than pure Zn.",
+      "Zn-2Ca alloy presented superior comprehensive performance with hardness 90.94 ± 1.71 HV and corrosion rate 0.074 ± 0.010 mm/year (weight loss)."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "基于有限证据推测：论文标题和作者未在提供的片段中明确给出，但关键词和摘要明确指向Zn-Ca合金。硬度值和腐蚀速率来自Zn-2Ca合金的特定数据。"
+  },
+  {
+    "alloy_id": "Mg-Zn-La-Ca_001",
+    "alloy_system": "Mg-Zn-La",
+    "year": 2020,
+    "paper_title": "Significant improvement in mechanical properties of Mg-Zn-La alloy by minor Ca addition",
+    "doi": "10.1016/j.matchar.2020.110130",
+    "authors": [
+      "Xin Wang",
+      "Yuzhou Du",
+      "Dongjie Liu",
+      "Bailing Jiang"
+    ],
+    "institution": "School of Materials Science and Technology, Xi'an University of Technology",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "La": "present",
+        "Ca": "minor addition"
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": null,
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "Minor Ca addition significantly improves mechanical properties of Mg-Zn-La alloy"
+    ],
+    "optimization_goals": [
+      "Improve mechanical properties of Mg-Zn-La alloy"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from the paper title and abstract, the exact composition (wt%) and detailed properties are not provided in the extracted sections. The paper focuses on the effect of Ca addition on Mg-Zn-La alloy."
+  },
+  {
+    "alloy_id": "Mg-Zn-La-Ca_001",
+    "alloy_system": "Mg-Zn-La",
+    "year": 2020,
+    "paper_title": "Significant improvement in mechanical properties of Mg-Zn-La alloy by minor Ca addition",
+    "doi": "10.1016/j.matchar.2020.110130",
+    "authors": [
+      "Xin Wang",
+      "Yuzhou Du",
+      "Dongjie Liu",
+      "Bailing Jiang"
+    ],
+    "institution": "School of Materials Science and Technology, Xi'an University of Technology",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "La": "present",
+        "Ca": "minor addition"
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": null,
+    "microstructure": {
+      "phases": [
+        "Ca2Mg6Zn3"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": "fine precipitates promoted by Ca addition; Ca2Mg6Zn3 phase at grain boundaries in as-cast state",
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": "texture weakening mentioned",
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "Minor Ca addition induces Ca2Mg6Zn3 phase at grain boundaries in as-cast state",
+      "Ca addition promotes dynamic precipitation in as-extruded state",
+      "Fine precipitates postpone dynamic recrystallization and refine dynamically recrystallized grains",
+      "Ca addition improves mechanical properties of Mg-Zn-La alloy"
+    ],
+    "optimization_goals": [
+      "Improve mechanical properties of Mg-Zn-La alloy"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence: exact composition (wt% of Zn, La, Ca) not provided; mechanical property values not extracted from paper content; processing parameters not mentioned in provided sections."
+  },
+  {
+    "alloy_id": "Al-Zn-Mg_001",
+    "alloy_system": "Al-Zn-Mg",
+    "year": null,
+    "paper_title": "Effect of the Zn/Mg Ratio on Microstructures, Mechanical Properties and Corrosion Performances of Al-Zn-Mg Alloys",
+    "doi": null,
+    "authors": [
+      "Keda Jiang",
+      "Yanquan Lan",
+      "Qinglin Pan",
+      "Yunlai Deng"
+    ],
+    "institution": "Light Alloy Research Institute, Central South University, Changsha 410083, China",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": [
+        "MgZn2 phase (η phase)",
+        "η′ phase (metastable)"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": "MgZn2 phase (η phase) and its metastable phase (η′ phase) are considered the most important precipitates.",
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "The paper investigates the effect of Zn/Mg ratio on microstructures, mechanical properties and corrosion performances of Al-Zn-Mg alloys.",
+      "Precipitation strengthening is the main strengthening mechanism, with MgZn2 phase (η phase) and its metastable phase (η′ phase) being the most important precipitates."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from Section 3 and Section 5. The paper title and authors are from Section 3. Microstructure information (phases) is from Section 5. No specific composition, processing parameters, or quantitative mechanical/corrosion data were provided in the extracted text."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Al-Zn-Mg-Cu",
+    "year": 2023,
+    "paper_title": "mechanical properties in Al-Zn-Mg-Cu aluminum alloy: strain-induced back stress strengthening",
+    "doi": "10.1016/j.jallcom.2023.172426",
+    "authors": [
+      "H. Yin et al."
+    ],
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "基于有限证据推测：该论文研究了Al-Zn-Mg-Cu铝合金中应变诱导背应力强化机制。"
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "提供的证据仅为论文标题、作者、期刊、DOI和年份，未包含具体的成分、工艺、性能等详细数据。"
+  },
+  {
+    "alloy_id": "Al-Zn-Mg_ZnMg3.68_001",
+    "alloy_system": "Al-Zn-Mg",
+    "year": 2024,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": 760.0,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": "coarse and discontinuous grain boundary precipitates",
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Zn/Mg stoichiometry controls the balance between strength and corrosion resistance in dilute Al-Zn-Mg alloys.",
+      "In an alloy with Zn/Mg ratio of 3.68, the corrosion sensitivity index was 3.6% and the corrosion depth was 15.3 µm, attributed to coarse and discontinuous grain boundary precipitates.",
+      "Decreasing Zn/Mg ratio significantly increases strength, SCC resistance, and electrochemical corrosion resistance in Al-Zn-Mg alloys with Zn+Mg ≈ 7 wt%.",
+      "Addition of 0.04 wt% Ce to Al-Zn-Mg alloy significantly reduces self-corrosive current density and increases passivation film resistance, lowering stress corrosion sensitivity index from 0.612 to 0.219."
+    ],
+    "optimization_goals": [
+      "Balance between strength and corrosion resistance",
+      "Improve corrosion resistance while maintaining mechanical properties"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The paper content is fragmented and does not provide a single, complete alloy composition or full set of properties. The extracted data is based on multiple sections discussing Al-Zn-Mg alloys. The melting temperature of 760°C is mentioned for the production of dilute Al-Zn-Mg alloys. The Zn/Mg ratio of 3.68 is specifically noted in Section 6. The paper appears to be a compilation of references and partial results rather than a single coherent study."
+  },
+  {
+    "alloy_id": "Al-Zn-Mg-Cu_001",
+    "alloy_system": "Al-Zn-Mg-Cu",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "hot forging",
+        "solution treatment",
+        "two-step aging"
+      ]
+    },
+    "microstructure": {
+      "phases": [
+        "η' phase (MgZn2 metastable)",
+        "η phase (MgZn2)"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": "MgZn2 phase (η phase) and its metastable phase (η′ phase) are the most important precipitates; η′ phase dominates in peak-aged condition.",
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": "electron backscatter diffraction (EBSD), transmission electron microscopy (TEM)",
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "The study investigated microstructure, precipitation, and tensile properties of AA7050 alloys fabricated through hot forging, solution, and two-step aging processes.",
+      "The MgZn2 phase (η phase) and its metastable phase (η′ phase) are considered the most important precipitates for strengthening.",
+      "η′ phase dominates in peak-aged Al-Zn-Mg alloy."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from the provided paper fragments. The paper appears to focus on AA7050 (Al-Zn-Mg-Cu) alloy, but specific composition, numerical property values, and detailed processing parameters are not provided in the excerpts. The alloy system is inferred from mentions of 'Al–Zn–Mg–Cu alloys' and 'AA7050 alloys'."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Al-Zn-Mg-Cu",
+    "year": 2023,
+    "paper_title": "mechanical properties in Al-Zn-Mg-Cu aluminum alloy: strain-induced back stress strengthening",
+    "doi": "10.1016/j.jallcom.2023.172426",
+    "authors": [
+      "H. Yin et al."
+    ],
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "The paper discusses strain-induced back stress strengthening in Al-Zn-Mg-Cu aluminum alloy."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided paper content is fragmented and primarily consists of references, abstracts, and section headers from multiple papers. The only specific paper title and DOI extracted are from Section 1, but no detailed experimental data (composition, processing, properties) are provided for that specific alloy. Other sections discuss various Zn and Al alloys but do not provide a complete dataset for a single alloy."
+  },
+  {
+    "alloy_id": "Al-Zn-Mg_001",
+    "alloy_system": "Al-Zn-Mg",
+    "year": 2024,
+    "paper_title": null,
+    "doi": "10.1016/j.jallcom.2023.172426",
+    "authors": [
+      "H. Yin et al."
+    ],
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": 760.0,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "基于有限证据推测：Zn/Mg化学计量比控制强度与耐腐蚀性的平衡"
+    ],
+    "optimization_goals": [
+      "先进合金开发中强度与耐腐蚀性的平衡"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "论文内容不完整，仅从Section 1和Section 2提取了部分信息。合金为稀释Al-Zn-Mg合金，熔炼温度约760°C，使用了Al-Cu、Al-Mn、Al-Cr、Al-Zr中间合金。论文标题和作者信息来自参考文献引用，非当前论文本身。"
+  },
+  {
+    "alloy_id": "Al-Zn-Mg-Cu_001",
+    "alloy_system": "Al-Zn-Mg-Cu",
+    "year": 2022,
+    "paper_title": "Microalloying on Microstructure Evolution and Mechanical Properties of Extruded Al-Zn-Mg-Cu Alloys",
+    "doi": null,
+    "authors": null,
+    "institution": "Shenyang 110819, China",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": "water-cooled copper casting",
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "water-cooled copper casting",
+        "extrusion"
+      ]
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "The paper investigates the microstructure evolution and mechanical properties of extruded Al-Zn-Mg-Cu alloys."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided content is fragmented and primarily consists of references and metadata. Specific composition, processing parameters, and property values are not available in the given text."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": null,
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided text consists of fragmented sections from multiple research papers on various alloy systems (Al-Zn-Mg-Cu, Mg-Zn-La, Mg-Zn, Mg-Al-Zn, Zn-Mg, etc.). No single alloy composition, processing, properties, or testing data is fully extractable from the given evidence. All fields are set to null due to insufficient and non-specific information."
+  },
+  {
+    "alloy_id": "Zn-2Cu-0.8Mg-0.2Gd_001",
+    "alloy_system": "Zn-Cu-Mg-Gd",
+    "year": 2024,
+    "paper_title": null,
+    "doi": null,
+    "authors": [
+      "H. Yin et al."
+    ],
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": 0.8,
+      "aluminum": null,
+      "copper": 2.0,
+      "silver": null,
+      "other_elements": {
+        "Gd": 0.2
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": 394.0,
+      "yield_strength": null,
+      "elongation": 1.1,
+      "hardness": 145.0,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Zn-2Cu-0.8Mg-0.2Gd alloy has the maximum tensile strength of 394 MPa and elongation of 1.1%, which are 1.3 and 1.5 times, respectively, when without addition.",
+      "Zn-2Cu-0.8Mg-0.1Sr-0.1Gd alloy has the highest hardness of 145 HV."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from Section 3 of the provided paper content. The alloy composition is inferred from the text 'Zn-2Cu-0.8Mg-0.2Gd alloy'. The paper title and DOI are not explicitly stated in the provided sections; the authors are inferred from the citation format in Section 1."
+  },
+  {
+    "alloy_id": "Al-Zn-Mg_ZnMg3.68_001",
+    "alloy_system": "Al-Zn-Mg",
+    "year": 2024,
+    "paper_title": null,
+    "doi": "10.1016/j.jallcom.2023.172426",
+    "authors": [
+      "H. Yin et al."
+    ],
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": 760.0,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": "coarse and discontinuous grain boundary precipitates",
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Zn/Mg stoichiometry controls the balance between strength and corrosion resistance in dilute Al-Zn-Mg alloys.",
+      "Corrosion sensitivity index was 3.6% in the alloy with a Zn/Mg ratio of 3.68 due to coarse and discontinuous grain boundary precipitates.",
+      "Strength, SCC, and electrochemical corrosion resistance are significantly increased with the decrease of Zn/Mg ratio.",
+      "Addition of 0.04 wt% Ce can significantly improve corrosion resistance of Al-Zn-Mg alloy."
+    ],
+    "optimization_goals": [
+      "Balance between strength and corrosion resistance",
+      "Improve corrosion resistance while maintaining mechanical properties"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from fragmented paper content. The paper appears to discuss multiple alloy systems (Al-Zn-Mg, Mg-Sc-Zn, Mg-Zn-La, Mg-Al-Zn). The primary focus for extraction was on Al-Zn-Mg alloys as indicated by the first section. The Zn/Mg ratio of 3.68 is mentioned in Section 6. Melting temperature of 760°C is from Section 1. DOI from Section 2. Authors and year from Section 2 and 8."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Al-Zn-Mg",
+    "year": null,
+    "paper_title": "Effect of the Zn/Mg Ratio on Microstructures, Mechanical Properties and Corrosion Performances of Al-Zn-Mg Alloys",
+    "doi": null,
+    "authors": [
+      "Keda Jiang",
+      "Yanquan Lan",
+      "Qinglin Pan",
+      "Yunlai Deng"
+    ],
+    "institution": "Light Alloy Research Institute, Central South University, Changsha 410083, China",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "基于有限证据推测：论文标题表明研究了Al-Zn-Mg合金中Zn/Mg比对显微组织、力学性能和腐蚀性能的影响"
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "提供的证据仅包含论文标题、作者和机构信息，以及部分参考文献列表，未提供具体的合金成分、加工工艺、显微组织、力学性能或腐蚀性能数据。"
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "基于有限证据推测：纯Zn力学强度低，需通过合金化和热机械加工提高性能。",
+      "基于有限证据推测：添加Mg、Ca、Sr、Mn、Cu、Ag、Ge等元素可改善Zn合金力学性能。",
+      "基于有限证据推测：Mg-Zn-La合金中添加微量Ca可显著改善力学性能。",
+      "基于有限证据推测：Zn-Cu合金中添加Ti可优化降解速率和力学性能。",
+      "基于有限证据推测：Zn-1Mg合金中添加0.1wt% Mn可使抗拉强度从210 MPa提升至300 MPa，延伸率从8%提升至25%。"
+    ],
+    "optimization_goals": [
+      "提高Zn基可降解金属的力学强度",
+      "改善Zn合金的延展性",
+      "优化生物可降解植入材料的综合性能"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "提供的证据为多个不同论文的片段，未聚焦于单一合金的具体数据。所有数值型字段均无法从片段中提取完整、具体的数值。"
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Zn-Cu-Ag-Zr",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": 1.5,
+      "silver": 1.0,
+      "other_elements": {
+        "Zr": 0.1
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "hot-rolling"
+      ]
+    },
+    "microstructure": {
+      "phases": [
+        "CuZn5"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": "new phase CuZn5 precipitated after hot-rolling",
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": 244.83,
+      "yield_strength": 218.14,
+      "elongation": 64.5,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "After hot-rolling, the grain of Zn-1.5Cu-xAg-0.1Zr alloy was broken and new phase CuZn5 was precipitated.",
+      "The mechanical properties were significantly improved, with maximum YS of 218.14 MPa, UTS of 244.83 MPa, and EL of 64.50% for as-rolled Zn-1.5Cu-1.0Ag-0.1Zr alloy."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Data extracted from Section 2 of the provided paper content. The composition is based on the as-rolled Zn-1.5Cu-1.0Ag-0.1Zr alloy which showed the best properties. Other sections contain data on different alloy systems (e.g., Zn-Mg, Al-Zn-Mg, Zn-Cu-Ti) but were not used for this specific extraction as the question focuses on a single alloy from the paper content."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Zn-Al",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": 85.0,
+      "magnesium": null,
+      "aluminum": 15.0,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": 275.0,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "annealing",
+        "air cooling"
+      ]
+    },
+    "microstructure": {
+      "phases": [
+        "η phase",
+        "α particles"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": "granular α particles distributed homogeneously in η phase matrix below 275°C; lamellar microstructure with isolated η grains above 275°C",
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Annealing below 275°C results in homogeneous distribution of granular α particles in η phase matrix",
+      "Annealing above 275°C followed by air cooling leads to lamellar microstructure with isolated η grains"
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "基于有限证据推测：合金为Zn-15wt%Al，来自Section 8的摘要。具体成分、加工参数和力学性能未在提供的片段中详细给出。"
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Zn-Cu-Ti",
+    "year": 2017,
+    "paper_title": null,
+    "doi": "http://dx.doi.org/10.1016/j.matchar.2017.10.015",
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "Ti": null,
+        "Cu": null
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": [
+        "TiZn16"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": "TiZn16 second phase",
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Ti addition to Zn-Cu alloys forms TiZn16 second phase, which is detrimental to corrosion resistance due to galvanic corrosion reaction.",
+      "Zn-based alloys with additions of Ti and Cu exhibit good creep resistance and improvement in mechanical properties compared with pure Zn.",
+      "Ti is considered as effective alloying element to further optimize degradation rate and mechanical properties of Zn-Cu alloys.",
+      "The effect of Ti on biodegradation behavior of Zn-Cu alloys has not been investigated (as of the paper's context)."
+    ],
+    "optimization_goals": [
+      "Optimize degradation rate and mechanical properties of Zn-Cu alloys via Ti addition."
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "基于有限证据推测：论文主要讨论Zn-Cu-Ti合金体系，但具体成分（如Cu和Ti的wt%）未在提供的片段中明确给出。DOI和年份（2017）来自Section 2的页脚信息。"
+  },
+  {
+    "alloy_id": "Al-Zn-Mg-Cu_001",
+    "alloy_system": "Al-Zn-Mg-Cu",
+    "year": 2022,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": "Northeastern University, Shenyang, China",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": "water-cooled copper casting",
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Al-Zn-Mg-Cu alloys were fabricated with water-cooled copper casting.",
+      "Microstructure characterized by EPMA, SEM, TEM, and XRD.",
+      "Mechanical properties studied by tensile and hardness tests."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from Section 1 only. The paper mentions Al-Zn-Mg-Cu alloy and Cu content and Zn/Mg ratio as keywords, but no specific composition values or detailed results are provided in the extracted content. The institution is inferred from the affiliation in Section 1."
+  },
+  {
+    "alloy_id": "Mg-Zn-La-Ca_001",
+    "alloy_system": "Mg-Zn-La",
+    "year": 2020,
+    "paper_title": "Significant improvement in mechanical properties of Mg-Zn-La alloy by minor Ca addition",
+    "doi": "10.1016/j.matchar.2020.110130",
+    "authors": [
+      "Xin Wang",
+      "Yuzhou Du",
+      "Dongjie Liu",
+      "Bailing Jiang"
+    ],
+    "institution": "School of Materials Science and Technology, Xi'an University of Technology",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "La": "present",
+        "Ca": "minor addition"
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "Minor Ca addition significantly improves mechanical properties of Mg-Zn-La alloy"
+    ],
+    "optimization_goals": [
+      "Improvement of mechanical properties of Mg-Zn-La alloy"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from the paper title and abstract. Exact composition (wt%) and processing details are not provided in the extracted sections."
+  },
+  {
+    "alloy_id": "Zn-2Cu-0.8Mg-0.2Gd_001",
+    "alloy_system": "Zn-Cu-Mg-Gd",
+    "year": 2024,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": 0.8,
+      "aluminum": null,
+      "copper": 2.0,
+      "silver": null,
+      "other_elements": {
+        "Gd": 0.2
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": 394.0,
+      "yield_strength": null,
+      "elongation": 1.1,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Zn-2Cu-0.8Mg-0.2Gd alloy has the maximum tensile strength of 394 MPa and maximum elongation of 1.1%, which are 1.3 and 1.5 times, respectively, when without addition."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on Section 2 of the provided paper content. The alloy is a Zn-2Cu-0.8Mg-based alloy with 0.2 wt% Gd addition. The hardness of a related alloy (Zn-2Cu-0.8Mg-0.1Sr-0.1Gd) is 145 HV, but this specific alloy's hardness is not directly given. The year 2024 is inferred from the journal citation in Section 3."
+  },
+  {
+    "alloy_id": "Mg-0.3Sc-xZn_001",
+    "alloy_system": "Mg-Sc-Zn",
+    "year": 2024,
+    "paper_title": "Journal of Materials Research and Technology 33 (2024) 5769–5783",
+    "doi": null,
+    "authors": [
+      "H. Yin et al."
+    ],
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "Sc": "0.3 wt%",
+        "Zn": "0 wt%, 1 wt%, 3 wt%, 6 wt%"
+      },
+      "impurities": null,
+      "composition_range": {
+        "Zn": {
+          "min": 0.0,
+          "max": 6.0
+        }
+      }
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": 228.0,
+      "yield_strength": null,
+      "elongation": 19.0,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": 0.194,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "MSZ1 alloy (Mg-0.3Sc-1Zn) exhibits the highest corrosion resistance (0.194 mm/y) and appropriate mechanical properties with UTS of 228 MPa and elongation of 19%.",
+      "With the increase of Zn content, the corrosion resistance of MSZ alloy increases first and then decreases."
+    ],
+    "optimization_goals": [
+      "High corrosion resistance",
+      "Appropriate mechanical properties"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "基于有限证据推测：论文主要研究Mg-0.3Sc-xZn合金，其中x=0,1,3,6 wt%。最佳性能出现在Zn含量为1 wt%时。论文标题和DOI未直接给出，但根据Section 4的引用格式推测论文发表于2024年，作者为H. Yin等。"
+  },
+  {
+    "alloy_id": "ZnMg0.02_001",
+    "alloy_system": "Zn-Mg",
+    "year": 2018,
+    "paper_title": null,
+    "doi": null,
+    "authors": [
+      "Wang L",
+      "He Y",
+      "Zhao H",
+      "Xie H",
+      "Li S",
+      "Ren Y"
+    ],
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": 99.98,
+      "magnesium": 0.02,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "room-temperature drawing"
+      ]
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Effect of cumulative strain on microstructural and mechanical properties of Zn-0.02 wt%Mg alloy wires during room-temperature drawing process"
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "基于有限证据推测：合金成分来自参考文献[71]标题，作者列表从该参考文献中提取，年份为2018。论文标题、DOI、机构及其他性能数据未在提供的片段中明确给出。"
+  },
+  {
+    "alloy_id": "Mg-Zn-La-Ca_001",
+    "alloy_system": "Mg-Zn-La",
+    "year": 2020,
+    "paper_title": "Significant improvement in mechanical properties of Mg-Zn-La alloy by minor Ca addition",
+    "doi": "10.1016/j.matchar.2020.110130",
+    "authors": [
+      "Xin Wang",
+      "Yuzhou Du",
+      "Dongjie Liu",
+      "Bailing Jiang"
+    ],
+    "institution": "School of Materials Science and Technology, Xi'an University of Technology",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "La": "present (content not specified)",
+        "Ca": "minor addition (content not specified)"
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": null,
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "Minor Ca addition significantly improves mechanical properties of Mg-Zn-La alloy"
+    ],
+    "optimization_goals": [
+      "Improve mechanical properties of Mg-Zn-La alloy"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The paper content provided is incomplete (only title, authors, abstract, and references sections visible). Exact compositions, processing parameters, and numerical property values are not available in the given evidence. The alloy system is Mg-Zn-La with Ca addition, but specific Zn, La, and Ca contents are not stated in the extracted text."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided text consists of fragmented sections from multiple research papers on various alloy systems (Mg-Zn-Ca, Zn-Cu-Mg, Al-Zn-Mg-Cu, Mg-Zn-Y-Nd, Mg-Gd, Zn-Mg, Mg-Zn-Zr-Ce, Mg-Zn-Sn, Zn-Mn). No single alloy composition, processing, or property set is fully described in one coherent section. Therefore, no structured data for a specific alloy can be extracted with confidence."
+  },
+  {
+    "alloy_id": "Mg-0.3Sc-1Zn_001",
+    "alloy_system": "Mg-Sc-Zn",
+    "year": 2024,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": 1.0,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "Sc": 0.3
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": 228.0,
+      "yield_strength": null,
+      "elongation": 19.0,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": 0.194,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "MSZ1 alloy (Mg-0.3Sc-1Zn) exhibits the highest corrosion resistance (0.194 mm/y) among the studied compositions.",
+      "MSZ1 alloy has appropriate mechanical properties with an ultimate tensile strength of 228 MPa and elongation of 19%.",
+      "With the increase of Zn content, the corrosion resistance of MSZ alloy increases first and then decreases."
+    ],
+    "optimization_goals": [
+      "Design high corrosion-resistant Mg-Sc-Zn alloys with appropriate mechanical properties.",
+      "Coordinate excellent corrosion resistance with mechanical properties for lightweight applications."
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on evidence from Sections 1, 5, and 13. The alloy system is Mg-Sc-Zn, with the specific composition Mg-0.3Sc-1Zn (wt.%) identified as MSZ1. The year is inferred from the journal volume (2024) in Section 7, but the paper title, DOI, authors, and institution are not clearly extractable from the provided snippets. Processing details are absent."
+  },
+  {
+    "alloy_id": "Al-Zn-Mg_001",
+    "alloy_system": "Al-Zn-Mg",
+    "year": null,
+    "paper_title": "Effect of the Zn/Mg Ratio on Microstructures, Mechanical Properties and Corrosion Performances of Al-Zn-Mg Alloys",
+    "doi": null,
+    "authors": [
+      "Keda Jiang",
+      "Yanquan Lan",
+      "Qinglin Pan",
+      "Yunlai Deng"
+    ],
+    "institution": "Light Alloy Research Institute, Central South University, Changsha 410083, China",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "基于有限证据推测：论文研究了Zn/Mg比对Al-Zn-Mg合金显微组织、力学性能和腐蚀性能的影响"
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "仅从Section 3提取到论文标题、作者和机构信息，未提供具体的成分、工艺、性能等数据。"
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided text consists of fragments from multiple research papers (abstracts, keywords, author lists, and references) but does not contain a single, complete research paper with specific alloy composition, processing, properties, or testing data. Therefore, no structured data can be reliably extracted for a specific alloy."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": null,
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided text consists of fragmented sections from multiple different research papers on various zinc and aluminum alloys. No single alloy composition, processing route, or complete set of properties can be extracted from this disjointed content. Each section describes different alloys (e.g., Zn-Cu-Ag-Zr, Al-Zn-Mg-Cu, Zn-2Cu-0.8Mg-based, Zn-1Mg, Zn-Ag based, Zn-Mn, Zn-3Cu-0.5Fe, Zn-4Ag) with different processing conditions and properties. To extract structured data, a coherent paper focused on a single alloy system is required."
+  },
+  {
+    "alloy_id": "Zn15Al_001",
+    "alloy_system": "Zn-Al",
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": 85.0,
+      "magnesium": null,
+      "aluminum": 15.0,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": 275.0,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "annealing"
+      ]
+    },
+    "microstructure": {
+      "phases": [
+        "α",
+        "η"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "Annealing below 275°C results in granular α particles distributed homogeneously in η phase matrix.",
+      "Annealing above 275°C followed by air cooling results in lamellar microstructure with isolated η grains."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on Section 6 of the provided content. The alloy is Zn-15wt%Al. Only annealing temperature (275°C as a threshold) and resulting microstructural features are explicitly mentioned."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Al-Zn-Mg-Cu",
+    "year": 2022,
+    "paper_title": "Microalloying on Microstructure Evolution and Mechanical Properties of Extruded Al-Zn-Mg-Cu Alloys",
+    "doi": null,
+    "authors": null,
+    "institution": "Shenyang 110819, China (based on Section 2 affiliation)",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": "water-cooled copper casting",
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": [
+        "water-cooled copper casting",
+        "extrusion"
+      ]
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "The paper investigates the effect of Cu content and Zn/Mg ratio on microstructure and mechanical properties of Al-Zn-Mg-Cu alloys."
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from the paper title, abstract, and keywords. Only the alloy system, year, casting method, and general research focus are extractable. Specific compositions, processing parameters, and property values are not provided in the given content."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Mg-Zn-La",
+    "year": 2020,
+    "paper_title": "Significant improvement in mechanical properties of Mg-Zn-La alloy by minor Ca addition",
+    "doi": "10.1016/j.matchar.2020.110130",
+    "authors": [
+      "Xin Wang",
+      "Yuzhou Du",
+      "Dongjie Liu",
+      "Bailing Jiang"
+    ],
+    "institution": "School of Materials Science and Technology, Xi'an University of Technology",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "La": "present",
+        "Ca": "minor addition"
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": null,
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": "texture (mentioned in keywords)",
+      "dislocation_density": null
+    },
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "Significant improvement in mechanical properties of Mg-Zn-La alloy by minor Ca addition"
+    ],
+    "optimization_goals": null,
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from the paper title, keywords, and DOI. The paper focuses on Mg-Zn-La alloy with Ca addition, studying dynamic recrystallization, texture, precipitates, and mechanical properties. Exact composition values and property data are not provided in the extracted sections."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided text consists of fragments from multiple research papers (sections 1-15) discussing various zinc, magnesium, and aluminum alloys. No single, complete alloy composition with full processing, microstructure, and property data is presented in a unified manner. The content is too fragmented and lacks a coherent alloy description to extract structured data for a specific alloy."
+  },
+  {
+    "alloy_id": "Mg-0.3Sc-xZn_001",
+    "alloy_system": "Mg-Sc-Zn",
+    "year": 2024,
+    "paper_title": null,
+    "doi": null,
+    "authors": [
+      "Hui Yin",
+      "Jihua Chen",
+      "Hongge Yan",
+      "Weijun Xia",
+      "Bin Su",
+      "Wensen Huang",
+      "Xiuxiu Yan"
+    ],
+    "institution": "School of Materials Science and Engineering, Hunan University, 410082, China",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "Sc": "0.3 wt%",
+        "Zn": "0 wt%, 1 wt%, 3 wt%, 6 wt%"
+      },
+      "impurities": null,
+      "composition_range": {
+        "Zn": {
+          "min": 0.0,
+          "max": 6.0
+        }
+      }
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": 228.0,
+      "yield_strength": null,
+      "elongation": 19.0,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": 0.194,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "MSZ1 alloy (Mg-0.3Sc-1Zn) exhibits the highest corrosion resistance (0.194 mm/y) and appropriate mechanical properties with UTS of 228 MPa and elongation of 19%",
+      "With the increase of Zn content, the corrosion resistance of MSZ alloy increases first and then decreases"
+    ],
+    "optimization_goals": [
+      "High corrosion resistance",
+      "Appropriate mechanical properties"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "基于有限证据推测：论文主要研究Mg-0.3Sc-xZn合金，其中x=0,1,3,6 wt%。作者信息来自Section 12，但该section标题与Mg-Ga合金相关，而正文内容（Section 2,3,5,7）明确指向Mg-Sc-Zn合金，因此作者和机构信息可能存在跨论文混合。年份基于Section 4的参考文献年份2023和Section 4期刊年份2024推测。"
+  },
+  {
+    "alloy_id": "Al-Zn-Mg_001",
+    "alloy_system": "Al-Zn-Mg",
+    "year": null,
+    "paper_title": "Effect of the Zn/Mg Ratio on Microstructures, Mechanical Properties and Corrosion Performances of Al-Zn-Mg Alloys",
+    "doi": null,
+    "authors": [
+      "Keda Jiang",
+      "Yanquan Lan",
+      "Qinglin Pan",
+      "Yunlai Deng"
+    ],
+    "institution": "Light Alloy Research Institute, Central South University, Changsha 410083, China",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": null,
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": [
+        "MgZn2 phase (η phase)",
+        "η′ phase"
+      ],
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": "MgZn2 phase (η phase) and its metastable phase (η′ phase) are the most important precipitates; η′ phase dominates in peak-aged alloy.",
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": null,
+      "yield_strength": null,
+      "elongation": null,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": null,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "The paper investigates the effect of Zn/Mg ratio on microstructures, mechanical properties and corrosion performances of Al-Zn-Mg alloys.",
+      "Precipitation strengthening is the main strengthening mechanism, with MgZn2 phase (η phase) and its metastable phase (η′ phase) being the most important precipitates."
+    ],
+    "optimization_goals": [
+      "Optimize Zn/Mg ratio for improved mechanical properties and corrosion performance."
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from Section 3 and Section 9. The paper title and authors are from Section 3. Microstructure details (phases) are from Section 9. No specific composition, processing, or quantitative property data were provided in the extracted text."
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": "Mg-Zn-La",
+    "year": 2020,
+    "paper_title": "Significant improvement in mechanical properties of Mg-Zn-La alloy by minor Ca addition",
+    "doi": "10.1016/j.matchar.2020.110130",
+    "authors": [
+      "Xin Wang",
+      "Yuzhou Du",
+      "Dongjie Liu",
+      "Bailing Jiang"
+    ],
+    "institution": "School of Materials Science and Technology, Xi'an University of Technology",
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "La": "present",
+        "Ca": "minor addition"
+      },
+      "impurities": null,
+      "composition_range": null
+    },
+    "processing": null,
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": "mentioned as a keyword",
+      "dislocation_density": null
+    },
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "Minor Ca addition significantly improves mechanical properties of Mg-Zn-La alloy"
+    ],
+    "optimization_goals": [
+      "Improve mechanical properties of Mg-Zn-La alloy"
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "Based on limited evidence from Section 2 and Section 6. The paper title and keywords are visible, but detailed composition, processing, and property data are not provided in the extracted text."
+  },
+  {
+    "alloy_id": "Mg-0.3Sc-xZn_001",
+    "alloy_system": "Mg-Sc-Zn",
+    "year": 2024,
+    "paper_title": "Journal of Materials Research and Technology 33 (2024) 5769–5783",
+    "doi": null,
+    "authors": [
+      "H. Yin et al."
+    ],
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": null,
+      "magnesium": null,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "Sc": "0.3 wt%",
+        "Zn": "0 wt%, 1 wt%, 3 wt%, 6 wt%"
+      },
+      "impurities": null,
+      "composition_range": {
+        "Zn": {
+          "min": 0.0,
+          "max": 6.0
+        }
+      }
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": null
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": 228.0,
+      "yield_strength": null,
+      "elongation": 19.0,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": {
+      "corrosion_rate": 0.194,
+      "corrosion_potential": null,
+      "polarization_resistance": null,
+      "icorr": null,
+      "corrosion_test_method": null,
+      "test_medium": null
+    },
+    "testing_conditions": {
+      "test_standard": null,
+      "temperature": null,
+      "humidity": null,
+      "strain_rate": null,
+      "test_equipment": null,
+      "loading_type": null,
+      "test_duration": null
+    },
+    "key_findings": [
+      "MSZ1 alloy (Mg-0.3Sc-1Zn) exhibits the highest corrosion resistance (0.194 mm/y) and appropriate mechanical properties with UTS of 228 MPa and elongation of 19%.",
+      "With the increase of Zn content, the corrosion resistance of MSZ alloy increases first and then decreases."
+    ],
+    "optimization_goals": [
+      "Develop high corrosion-resistant Mg-Sc-Zn alloys with appropriate mechanical properties.",
+      "Optimize Zn concentration to balance corrosion resistance and mechanical performance."
+    ],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "基于有限证据推测：论文主要研究Mg-0.3Sc-xZn合金，其中x=0,1,3,6 wt%。最佳性能出现在Zn含量为1 wt%时。论文标题和DOI未直接给出，但根据Section 5和Section 6内容推断年份为2024。作者仅列出'H. Yin et al.'，具体作者列表不完整。"
+  },
+  {
+    "alloy_id": null,
+    "alloy_system": null,
+    "year": null,
+    "paper_title": null,
+    "doi": null,
+    "authors": null,
+    "institution": null,
+    "batch_id": null,
+    "composition": null,
+    "processing": null,
+    "microstructure": null,
+    "mechanical_properties": null,
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": "The provided text consists of fragmented references and section headers from multiple papers, not a single coherent research paper content. No specific alloy composition, processing, or property data can be reliably extracted for a single alloy. The content references various alloy systems (Mg-Zn-Sn, Al-Zn-Mg, Zn-Mg, In-Sn-Zn, etc.) but lacks the detailed experimental data required to populate the JSON fields."
+  }
+]

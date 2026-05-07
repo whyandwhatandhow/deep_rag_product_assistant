@@ -1,0 +1,254 @@
+{
+  "yield_strength": {
+    "model_type": "random_forest",
+    "target_property": "yield_strength",
+    "train_samples": 10824,
+    "test_samples": 2707,
+    "n_features": 21,
+    "train_mse": 0.031350052311304326,
+    "train_rmse": 0.1770594598187409,
+    "train_mae": 0.11160944817386023,
+    "train_r2": 0.9986149912390829,
+    "test_mse": 0.031987489164268794,
+    "test_rmse": 0.17885046593249007,
+    "test_mae": 0.11058792890822473,
+    "test_r2": 0.998987284256374,
+    "target_mean": 217.6533314575441,
+    "target_std": 4.75765421717628,
+    "target_min": 154.0,
+    "target_max": 218.14,
+    "feature_importance": {
+      "zinc": 5.403100654862906e-05,
+      "magnesium": 0.9689060372181193,
+      "aluminum": 0.0,
+      "copper": 0.016658849760864406,
+      "silver": 7.883909326102513e-06,
+      "elem_RE": 0.0,
+      "elem_Gd": 0.01350162944931379,
+      "elem_Zr": 7.989696391444235e-06,
+      "elem_Mn": 4.779082378427153e-05,
+      "elem_Er": 0.0,
+      "elem_Ca": 0.0007931426920029745,
+      "elem_Dy": 0.0,
+      "elem_Li": 0.0,
+      "elem_RE (Er, Dy, Ho)": 0.0,
+      "elem_Ho": 0.0,
+      "melting_temperature": 2.2645443648937636e-05,
+      "annealing_temperature": 0.0,
+      "aging_temperature": 0.0,
+      "aging_time": 0.0,
+      "casting_method_encoded": 0.0,
+      "grain_size": 0.0
+    },
+    "top_features": [
+      [
+        "magnesium",
+        0.9689060372181193
+      ],
+      [
+        "copper",
+        0.016658849760864406
+      ],
+      [
+        "elem_Gd",
+        0.01350162944931379
+      ],
+      [
+        "elem_Ca",
+        0.0007931426920029745
+      ],
+      [
+        "zinc",
+        5.403100654862906e-05
+      ],
+      [
+        "elem_Mn",
+        4.779082378427153e-05
+      ],
+      [
+        "melting_temperature",
+        2.2645443648937636e-05
+      ],
+      [
+        "elem_Zr",
+        7.989696391444235e-06
+      ],
+      [
+        "silver",
+        7.883909326102513e-06
+      ],
+      [
+        "aluminum",
+        0.0
+      ]
+    ]
+  },
+  "elongation": {
+    "model_type": "random_forest",
+    "target_property": "elongation",
+    "train_samples": 10824,
+    "test_samples": 2707,
+    "n_features": 21,
+    "train_mse": 0.11840410287138038,
+    "train_rmse": 0.3440989724939329,
+    "train_mae": 0.22225549890394458,
+    "train_r2": 0.9972799295009138,
+    "test_mse": 0.11873979561561007,
+    "test_rmse": 0.3445864124071204,
+    "test_mae": 0.22000344111813994,
+    "test_r2": 0.9975885919086137,
+    "target_mean": 63.48392354479646,
+    "target_std": 6.597711113267066,
+    "target_min": 1.1,
+    "target_max": 82.2,
+    "feature_importance": {
+      "zinc": 0.4952448973600137,
+      "magnesium": 0.04471109658988073,
+      "aluminum": 0.0,
+      "copper": 0.008964604922690658,
+      "silver": 1.6771777688813408e-05,
+      "elem_RE": 0.0,
+      "elem_Gd": 0.010400596016747825,
+      "elem_Zr": 1.5400555670144116e-05,
+      "elem_Mn": 0.4389352532908581,
+      "elem_Er": 0.0,
+      "elem_Ca": 0.0016656155663895844,
+      "elem_Dy": 0.0,
+      "elem_Li": 0.0,
+      "elem_RE (Er, Dy, Ho)": 0.0,
+      "elem_Ho": 0.0,
+      "melting_temperature": 4.57639200605324e-05,
+      "annealing_temperature": 0.0,
+      "aging_temperature": 0.0,
+      "aging_time": 0.0,
+      "casting_method_encoded": 0.0,
+      "grain_size": 0.0
+    },
+    "top_features": [
+      [
+        "zinc",
+        0.4952448973600137
+      ],
+      [
+        "elem_Mn",
+        0.4389352532908581
+      ],
+      [
+        "magnesium",
+        0.04471109658988073
+      ],
+      [
+        "elem_Gd",
+        0.010400596016747825
+      ],
+      [
+        "copper",
+        0.008964604922690658
+      ],
+      [
+        "elem_Ca",
+        0.0016656155663895844
+      ],
+      [
+        "melting_temperature",
+        4.57639200605324e-05
+      ],
+      [
+        "silver",
+        1.6771777688813408e-05
+      ],
+      [
+        "elem_Zr",
+        1.5400555670144116e-05
+      ],
+      [
+        "aluminum",
+        0.0
+      ]
+    ]
+  },
+  "hardness": {
+    "model_type": "random_forest",
+    "target_property": "hardness",
+    "train_samples": 10824,
+    "test_samples": 2707,
+    "n_features": 21,
+    "train_mse": 0.18015044886372464,
+    "train_rmse": 0.4244413373644521,
+    "train_mae": 0.01381503763853048,
+    "train_r2": 0.3325877191686014,
+    "test_mse": 0.5050810990037938,
+    "test_rmse": 0.7106905789468394,
+    "test_mae": 0.020819934592551853,
+    "test_r2": 0.531630763175632,
+    "target_mean": 90.97074434866533,
+    "target_std": 0.5195418989836816,
+    "target_min": 90.94,
+    "target_max": 145.0,
+    "feature_importance": {
+      "zinc": 0.0,
+      "magnesium": 0.2635424772427325,
+      "aluminum": 0.0,
+      "copper": 0.13813666221771057,
+      "silver": 0.0004730254710702321,
+      "elem_RE": 0.0,
+      "elem_Gd": 0.22988373280701144,
+      "elem_Zr": 0.0004697919268627733,
+      "elem_Mn": 0.0,
+      "elem_Er": 0.0,
+      "elem_Ca": 0.3584282439023111,
+      "elem_Dy": 0.0,
+      "elem_Li": 0.0,
+      "elem_RE (Er, Dy, Ho)": 0.0,
+      "elem_Ho": 0.0,
+      "melting_temperature": 0.009066066432301392,
+      "annealing_temperature": 0.0,
+      "aging_temperature": 0.0,
+      "aging_time": 0.0,
+      "casting_method_encoded": 0.0,
+      "grain_size": 0.0
+    },
+    "top_features": [
+      [
+        "elem_Ca",
+        0.3584282439023111
+      ],
+      [
+        "magnesium",
+        0.2635424772427325
+      ],
+      [
+        "elem_Gd",
+        0.22988373280701144
+      ],
+      [
+        "copper",
+        0.13813666221771057
+      ],
+      [
+        "melting_temperature",
+        0.009066066432301392
+      ],
+      [
+        "silver",
+        0.0004730254710702321
+      ],
+      [
+        "elem_Zr",
+        0.0004697919268627733
+      ],
+      [
+        "zinc",
+        0.0
+      ],
+      [
+        "aluminum",
+        0.0
+      ],
+      [
+        "elem_RE",
+        0.0
+      ]
+    ]
+  }
+}

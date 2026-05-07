@@ -1,0 +1,145 @@
+批量导入报告 - 2026-04-25 16:55:51
+目录: D:\pyprocesses\deep_rag_product_assistant\backend\data\raw\Mg
+产品名称: Mg 合金
+文档类型: paper
+============================================================
+
+总计: 136 | 成功: 136 | 失败: 0
+
+成功文件:
+  ✅ 085126_1_online.pdf: 成功, document_id: f1f77435-2ff9-47
+  ✅ 1-s2.0-S0042207X2300427X-main.pdf: 成功, document_id: b6b6ae08-7622-44
+  ✅ 1-s2.0-S0042207X23006061-main.pdf: 成功, document_id: 5a81ca99-a596-4d
+  ✅ 1-s2.0-S0042207X25003264-main.pdf: 成功, document_id: 6a141f47-376b-44
+  ✅ 1-s2.0-S0167577X18302192-main.pdf: 成功, document_id: 72e357c0-8d62-44
+  ✅ 1-s2.0-S0167577X21001919-main.pdf: 成功, document_id: 8f34bc40-7fb3-4a
+  ✅ 1-s2.0-S0167577X22013659-main.pdf: 成功, document_id: 34626869-6f6d-45
+  ✅ 1-s2.0-S0254058416302978-main.pdf: 成功, document_id: f185e71b-0903-48
+  ✅ 1-s2.0-S0264127519304228-main.pdf: 成功, document_id: 13c09954-a535-40
+  ✅ 1-s2.0-S0264127525009967-main.pdf: 成功, document_id: 56e80d34-7b32-41
+  ✅ 1-s2.0-S0364591618302116-main.pdf: 成功, document_id: 03997c8f-a22d-4c
+  ✅ 1-s2.0-S0921509316306153-main.pdf: 成功, document_id: 3b689461-a86a-45
+  ✅ 1-s2.0-S0921509316306906-main.pdf: 成功, document_id: c605bbb5-9ed6-48
+  ✅ 1-s2.0-S0921509316313739-main.pdf: 成功, document_id: 95d1023e-9138-46
+  ✅ 1-s2.0-S0921509316314836-main.pdf: 成功, document_id: a9c7a036-05e6-43
+  ✅ 1-s2.0-S0921509317302666-main.pdf: 成功, document_id: acc5c45f-8302-45
+  ✅ 1-s2.0-S0921509317303490-main.pdf: 成功, document_id: e33da0de-72ee-49
+  ✅ 1-s2.0-S0921509317304422-main.pdf: 成功, document_id: 5043de0a-860d-48
+  ✅ 1-s2.0-S0921509318302004-main.pdf: 成功, document_id: 4ab9b4f2-287f-4e
+  ✅ 1-s2.0-S0921509318304854-main.pdf: 成功, document_id: a45c8654-bbfc-4c
+  ✅ 1-s2.0-S092150931930512X-main.pdf: 成功, document_id: b0ac6d71-25e0-42
+  ✅ 1-s2.0-S0921509319307610-main.pdf: 成功, document_id: 0ce7d035-eb5f-4e
+  ✅ 1-s2.0-S0921509319308007-main.pdf: 成功, document_id: c54c2d30-389c-4e
+  ✅ 1-s2.0-S0921509320300204-main.pdf: 成功, document_id: a1627f05-136f-43
+  ✅ 1-s2.0-S0921509320300241-main.pdf: 成功, document_id: 1bebfa84-665a-4d
+  ✅ 1-s2.0-S0921509320302318-main.pdf: 成功, document_id: fa04b679-5fdc-41
+  ✅ 1-s2.0-S0921509320315719-main.pdf: 成功, document_id: c896ad16-eb8f-4b
+  ✅ 1-s2.0-S092150932100589X-main.pdf: 成功, document_id: 129a7c66-849f-4b
+  ✅ 1-s2.0-S0921509322006864-main.pdf: 成功, document_id: c92a57ee-2a0a-43
+  ✅ 1-s2.0-S0921509322013818-main.pdf: 成功, document_id: 8b547aec-8f0c-4b
+  ✅ 1-s2.0-S0921509323001806-main.pdf: 成功, document_id: fa835ae3-527b-49
+  ✅ 1-s2.0-S0921509323007463-main.pdf: 成功, document_id: 0036da94-8882-42
+  ✅ 1-s2.0-S092583881531402X-main.pdf: 成功, document_id: bf2759df-bc2d-4b
+  ✅ 1-s2.0-S0925838816324239-main.pdf: 成功, document_id: d78f6a79-c160-42
+  ✅ 1-s2.0-S0925838816333989-main.pdf: 成功, document_id: 3a23771a-a5ca-4e
+  ✅ 1-s2.0-S0925838817332413-main.pdf: 成功, document_id: 2b296ec8-4aaa-46
+  ✅ 1-s2.0-S0925838817339002-main.pdf: 成功, document_id: 25aa213f-919a-4e
+  ✅ 1-s2.0-S0925838818333292-main.pdf: 成功, document_id: e3568ae4-20ec-4d
+  ✅ 1-s2.0-S0925838818338416-main.pdf: 成功, document_id: 73f2a031-1918-49
+  ✅ 1-s2.0-S0925838819343683-main.pdf: 成功, document_id: 6df11503-0d4f-4c
+  ✅ 1-s2.0-S0925838820320466-main.pdf: 成功, document_id: 2b4dcab9-014c-41
+  ✅ 1-s2.0-S092583882032569X-main.pdf: 成功, document_id: f5466d3c-2490-47
+  ✅ 1-s2.0-S0925838823042524-main.pdf: 成功, document_id: 2b67fda0-fa38-42
+  ✅ 1-s2.0-S0925838824025623-main.pdf: 成功, document_id: 9c16b2a5-7a27-4d
+  ✅ 1-s2.0-S0925838824044992-main.pdf: 成功, document_id: 42d381ee-b128-45
+  ✅ 1-s2.0-S0925838825060815-main.pdf: 成功, document_id: 6882808f-802f-4f
+  ✅ 1-s2.0-S0927025620304638-main.pdf: 成功, document_id: 1aedbf7c-d8a7-4b
+  ✅ 1-s2.0-S0928493116303071-main.pdf: 成功, document_id: 7772e188-d95c-4b
+  ✅ 1-s2.0-S096697952100087X-main.pdf: 成功, document_id: 61862b0d-895a-47
+  ✅ 1-s2.0-S1002007117304628-main.pdf: 成功, document_id: 047ce20f-44b2-41
+  ✅ 1-s2.0-S1002007119300383-main.pdf: 成功, document_id: 88906eb3-2abd-4e
+  ✅ 1-s2.0-S1002007121000654-main.pdf: 成功, document_id: b1ce1427-cdfc-4c
+  ✅ 1-s2.0-S100207211660145X-main.pdf: 成功, document_id: 903284f7-8e51-46
+  ✅ 1-s2.0-S1002072124003041-main.pdf: 成功, document_id: d39632ef-010f-41
+  ✅ 1-s2.0-S1003632616642310-main.pdf: 成功, document_id: 234bcf82-2302-42
+  ✅ 1-s2.0-S1003632621656297-main.pdf: 成功, document_id: d45641fc-81ea-4f
+  ✅ 1-s2.0-S1003632621657576-main.pdf: 成功, document_id: 4d46ce68-ebb2-47
+  ✅ 1-s2.0-S1003632622658357-main.pdf: 成功, document_id: 66fba69f-ea7b-48
+  ✅ 1-s2.0-S1003632622658369-main.pdf: 成功, document_id: a39fce35-5c52-42
+  ✅ 1-s2.0-S1003632622659144-main.pdf: 成功, document_id: 6efb9d7c-9381-4d
+  ✅ 1-s2.0-S1003632622661168-main.pdf: 成功, document_id: 2b72be63-6479-44
+  ✅ 1-s2.0-S1003632623663794-main.pdf: 成功, document_id: f114de39-67c5-41
+  ✅ 1-s2.0-S1005030216302109-main.pdf: 成功, document_id: 653155b8-0b14-4a
+  ✅ 1-s2.0-S1005030217301184-main.pdf: 成功, document_id: b1beac9b-4cd6-47
+  ✅ 1-s2.0-S1005030219300301-main.pdf: 成功, document_id: 59233d5b-cbee-44
+  ✅ 1-s2.0-S1005030220303194-main.pdf: 成功, document_id: 5a5134ed-365c-41
+  ✅ 1-s2.0-S1005030220305375-main.pdf: 成功, document_id: f93218a4-a35f-4e
+  ✅ 1-s2.0-S1005030223002736-main.pdf: 成功, document_id: de1099f3-2a67-4e
+  ✅ 1-s2.0-S1005030225008497-main.pdf: 成功, document_id: d25fab47-163c-4d
+  ✅ 1-s2.0-S1044580318316383-main.pdf: 成功, document_id: c0c12510-f86c-48
+  ✅ 1-s2.0-S1044580319319606-main.pdf: 成功, document_id: 3bfa04eb-f0e3-4d
+  ✅ 1-s2.0-S1044580319327408-main.pdf: 成功, document_id: c64dbf2e-70f1-48
+  ✅ 1-s2.0-S1044580322007100-main.pdf: 成功, document_id: 03c80142-e252-44
+  ✅ 1-s2.0-S104458032300387X-main.pdf: 成功, document_id: d0078f2e-0b23-4e
+  ✅ 1-s2.0-S1751616116301114-main.pdf: 成功, document_id: 98c858dd-3f68-47
+  ✅ 1-s2.0-S2211379719304814-main.pdf: 成功, document_id: 6eafa7c7-236a-4c
+  ✅ 1-s2.0-S2213956718300689-main.pdf: 成功, document_id: fdb81dda-44b9-4d
+  ✅ 1-s2.0-S2213956719300246-main.pdf: 成功, document_id: e7c3e46e-55d5-44
+  ✅ 1-s2.0-S2213956722000809-main.pdf: 成功, document_id: c1f8e16d-bd75-49
+  ✅ 1-s2.0-S2238785418303624-main.pdf: 成功, document_id: b142760a-aba4-4c
+  ✅ 1-s2.0-S2238785420314307-main.pdf: 成功, document_id: 4b1930c7-f192-4a
+  ✅ 1-s2.0-S223878542100867X-main.pdf: 成功, document_id: fb8161ed-b173-44
+  ✅ 1-s2.0-S223878542300529X-main.pdf: 成功, document_id: 854a4460-5497-49
+  ✅ 1-s2.0-S2238785423014424-main.pdf: 成功, document_id: 04eed887-a833-4e
+  ✅ 1-s2.0-S2238785423030545-main.pdf: 成功, document_id: 87cbc379-d877-4c
+  ✅ 1-s2.0-S2238785424001558-main.pdf: 成功, document_id: 8024d86b-f7e7-4e
+  ✅ 1-s2.0-S2238785424017915-main.pdf: 成功, document_id: f6f9448c-47a3-48
+  ✅ 1-s2.0-S2238785425027942-main.pdf: 成功, document_id: fbb7708e-7ce3-42
+  ✅ 1-s2.0-S2352492820325666-main.pdf: 成功, document_id: 276b0307-e33c-4e
+  ✅ 1-s2.0-S2352492822004056-main.pdf: 成功, document_id: 2470c365-f700-4b
+  ✅ 1-s2.0-S2352492822005293-main.pdf: 成功, document_id: 87c0021c-c47b-49
+  ✅ 1-s2.0-S2352492824012066-main.pdf: 成功, document_id: a4bb503f-026b-47
+  ✅ 1-s2.0-S2352492824027740-main.pdf: 成功, document_id: 83bb4d6a-0161-48
+  ✅ 1-s2.0-S2589234724001416-main.pdf: 成功, document_id: 91a42695-0847-4d
+  ✅ Bao_2021_Mater._Res._Express_8_096501 (1).pdf: 成功, document_id: a4038e86-fc0a-4a
+  ✅ Bao_2021_Mater._Res._Express_8_096501.pdf: 成功, document_id: b67f4283-fe76-40
+  ✅ fmats-08-778833.pdf: 成功, document_id: 0abb53c3-447b-49
+  ✅ Lu_2020_Mater._Res._Express_7_076520.pdf: 成功, document_id: 9d9f92ce-6260-42
+  ✅ Ma_2021_Mater._Res._Express_8_066507.pdf: 成功, document_id: 885e71f3-df2e-4b
+  ✅ main (1).pdf: 成功, document_id: a5847fef-656e-4c
+  ✅ main.pdf: 成功, document_id: 00ebeec9-25c1-4f
+  ✅ materials-09-00902.pdf: 成功, document_id: 712b55ff-e121-4d
+  ✅ materials-11-01424.pdf: 成功, document_id: c88299d4-943c-4f
+  ✅ materials-12-01775.pdf: 成功, document_id: 4e550f2f-6ce0-47
+  ✅ materials-13-03591 (1).pdf: 成功, document_id: 31678d2a-2ab1-40
+  ✅ materials-13-03591.pdf: 成功, document_id: 41825b1b-b8ba-47
+  ✅ materials-14-00083.pdf: 成功, document_id: c7530319-87f9-46
+  ✅ materials-16-00109.pdf: 成功, document_id: 2bf68f5c-7470-47
+  ✅ metals-07-00164.pdf: 成功, document_id: b7e35c09-8901-40
+  ✅ metals-09-00327-v2.pdf: 成功, document_id: c8716947-e680-4e
+  ✅ metals-11-02021.pdf: 成功, document_id: 080338f5-01d5-45
+  ✅ metals-12-00039-v2.pdf: 成功, document_id: e408f7a8-6bc5-49
+  ✅ metals-12-00375-v2.pdf: 成功, document_id: 9576e2da-7cec-40
+  ✅ Microstructure and mechanical properties of pure Mg after spiral equal-channel extrusion.pdf: 成功, document_id: 56d5ae33-62d4-4a
+  ✅ s10856-018-6093-x (1).pdf: 成功, document_id: 2c6b42d0-3c92-45
+  ✅ s10856-018-6093-x.pdf: 成功, document_id: 1fa33d49-7177-47
+  ✅ s11665-018-3195-z.pdf: 成功, document_id: 1ad5bddc-8564-4e
+  ✅ s11665-018-3356-0.pdf: 成功, document_id: 408fdf94-a4b4-41
+  ✅ s11665-018-3433-4.pdf: 成功, document_id: 2b58a141-e2e0-46
+  ✅ s11665-019-04151-7.pdf: 成功, document_id: ed851535-dde0-44
+  ✅ s11665-020-04856-0.pdf: 成功, document_id: 107b0de3-f2d5-49
+  ✅ s11665-020-05212-y.pdf: 成功, document_id: 9d274f1b-9920-43
+  ✅ s11665-022-07373-4.pdf: 成功, document_id: 8ad0b168-873b-41
+  ✅ s12289-020-01589-2.pdf: 成功, document_id: 5255e990-9f78-4d
+  ✅ s12540-019-00477-y.pdf: 成功, document_id: df1541cf-19eb-40
+  ✅ s12540-019-00528-4.pdf: 成功, document_id: 990cf319-ded5-45
+  ✅ s12540-020-00919-y.pdf: 成功, document_id: 1795d4d1-4b3a-47
+  ✅ s12540-021-01001-x.pdf: 成功, document_id: efd6f470-b4bc-4f
+  ✅ s12540-022-01176-x.pdf: 成功, document_id: a97022a1-9445-4b
+  ✅ s12613-017-1476-4.pdf: 成功, document_id: 119cf529-4629-41
+  ✅ s12633-021-01521-6.pdf: 成功, document_id: 3f2b0e66-7066-42
+  ✅ s40195-020-01054-8 (1).pdf: 成功, document_id: 4fdb9476-3053-41
+  ✅ s40195-020-01054-8.pdf: 成功, document_id: 88399e77-f16d-42
+  ✅ s40195-022-01462-y (1).pdf: 成功, document_id: 8f603db2-961d-4a
+  ✅ s40195-022-01462-y.pdf: 成功, document_id: e3c76a1f-89cc-4f
+  ✅ Saufan_2020_Mater._Res._Express_7_046511.pdf: 成功, document_id: ff1c26b1-6883-48

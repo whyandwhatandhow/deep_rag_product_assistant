@@ -1,0 +1,254 @@
+{
+  "yield_strength": {
+    "model_type": "random_forest",
+    "target_property": "yield_strength",
+    "train_samples": 4220,
+    "test_samples": 1055,
+    "n_features": 21,
+    "train_mse": 0.15108006982286648,
+    "train_rmse": 0.38869019774476754,
+    "train_mae": 0.08721134200006506,
+    "train_r2": 0.9974662665554879,
+    "test_mse": 1.5649953887734893,
+    "test_rmse": 1.2509977573015427,
+    "test_mae": 0.12530023749445024,
+    "test_r2": 0.979957364207105,
+    "target_mean": 218.65171300684565,
+    "target_std": 7.721881389222193,
+    "target_min": 154.0,
+    "target_max": 362.0,
+    "feature_importance": {
+      "zinc": 0.00022407708859999314,
+      "magnesium": 0.5460207734948007,
+      "aluminum": 0.0,
+      "copper": 2.205409892253641e-06,
+      "silver": 1.933360768226924e-06,
+      "elem_Mn": 0.0,
+      "elem_Ti": 0.0,
+      "elem_Y": 0.45323402571456856,
+      "elem_Ca": 0.0005084355407412983,
+      "elem_RE (Er, Dy, Ho)": 0.0,
+      "elem_RE": 0.0,
+      "elem_Zr": 2.2437554269215476e-06,
+      "elem_Cu": 0.0,
+      "elem_Li": 0.0,
+      "elem_Gd": 1.333927467701086e-14,
+      "melting_temperature": 6.305635188814385e-06,
+      "annealing_temperature": 0.0,
+      "aging_temperature": 0.0,
+      "aging_time": 0.0,
+      "casting_method_encoded": 0.0,
+      "grain_size": 0.0
+    },
+    "top_features": [
+      [
+        "magnesium",
+        0.5460207734948007
+      ],
+      [
+        "elem_Y",
+        0.45323402571456856
+      ],
+      [
+        "elem_Ca",
+        0.0005084355407412983
+      ],
+      [
+        "zinc",
+        0.00022407708859999314
+      ],
+      [
+        "melting_temperature",
+        6.305635188814385e-06
+      ],
+      [
+        "elem_Zr",
+        2.2437554269215476e-06
+      ],
+      [
+        "copper",
+        2.205409892253641e-06
+      ],
+      [
+        "silver",
+        1.933360768226924e-06
+      ],
+      [
+        "elem_Gd",
+        1.333927467701086e-14
+      ],
+      [
+        "aluminum",
+        0.0
+      ]
+    ]
+  },
+  "elongation": {
+    "model_type": "random_forest",
+    "target_property": "elongation",
+    "train_samples": 4220,
+    "test_samples": 1055,
+    "n_features": 21,
+    "train_mse": 0.023949259088476307,
+    "train_rmse": 0.15475548161043054,
+    "train_mae": 0.0409145834871789,
+    "train_r2": 0.9973359297691902,
+    "test_mse": 2.7766927685334597,
+    "test_rmse": 1.6663411321015453,
+    "test_mae": 0.0936718588326321,
+    "test_r2": 0.8027298521288169,
+    "target_mean": 64.27371543610413,
+    "target_std": 2.9982870317774735,
+    "target_min": 1.1,
+    "target_max": 82.2,
+    "feature_importance": {
+      "zinc": 0.043062576292926924,
+      "magnesium": 0.3987577094185993,
+      "aluminum": 0.0,
+      "copper": 0.13760309620259983,
+      "silver": 2.891852790489593e-06,
+      "elem_Mn": 0.0,
+      "elem_Ti": 0.0,
+      "elem_Y": 0.30224650797141334,
+      "elem_Ca": 0.0007024565404383983,
+      "elem_RE (Er, Dy, Ho)": 0.0,
+      "elem_RE": 0.0,
+      "elem_Zr": 3.7466496954445803e-06,
+      "elem_Cu": 0.0,
+      "elem_Li": 0.0,
+      "elem_Gd": 0.11761236961395409,
+      "melting_temperature": 8.64545758215192e-06,
+      "annealing_temperature": 0.0,
+      "aging_temperature": 0.0,
+      "aging_time": 0.0,
+      "casting_method_encoded": 0.0,
+      "grain_size": 0.0
+    },
+    "top_features": [
+      [
+        "magnesium",
+        0.3987577094185993
+      ],
+      [
+        "elem_Y",
+        0.30224650797141334
+      ],
+      [
+        "copper",
+        0.13760309620259983
+      ],
+      [
+        "elem_Gd",
+        0.11761236961395409
+      ],
+      [
+        "zinc",
+        0.043062576292926924
+      ],
+      [
+        "elem_Ca",
+        0.0007024565404383983
+      ],
+      [
+        "melting_temperature",
+        8.64545758215192e-06
+      ],
+      [
+        "elem_Zr",
+        3.7466496954445803e-06
+      ],
+      [
+        "silver",
+        2.891852790489593e-06
+      ],
+      [
+        "aluminum",
+        0.0
+      ]
+    ]
+  },
+  "hardness": {
+    "model_type": "random_forest",
+    "target_property": "hardness",
+    "train_samples": 4220,
+    "test_samples": 1055,
+    "n_features": 21,
+    "train_mse": 0.4659540200929859,
+    "train_rmse": 0.6826082478940508,
+    "train_mae": 0.042531869194565926,
+    "train_r2": 0.4184602811248057,
+    "test_mse": 1.4415745866559286,
+    "test_rmse": 1.2006558985221072,
+    "test_mae": 0.06953687592115836,
+    "test_r2": 0.4954096099479942,
+    "target_mean": 91.11018393041886,
+    "target_std": 0.8951211945822151,
+    "target_min": 90.94,
+    "target_max": 145.0,
+    "feature_importance": {
+      "zinc": 0.5226471324402583,
+      "magnesium": 0.0501664029660375,
+      "aluminum": 0.0,
+      "copper": 0.1597472585944357,
+      "silver": 2.2584401606138084e-05,
+      "elem_Mn": 0.0,
+      "elem_Ti": 0.0,
+      "elem_Y": 0.006377975903635252,
+      "elem_Ca": 0.01608143734135616,
+      "elem_RE (Er, Dy, Ho)": 0.0,
+      "elem_RE": 0.0,
+      "elem_Zr": 2.2673095606770274e-05,
+      "elem_Cu": 0.0,
+      "elem_Li": 0.0,
+      "elem_Gd": 0.24473249709410735,
+      "melting_temperature": 0.0002020381629568625,
+      "annealing_temperature": 0.0,
+      "aging_temperature": 0.0,
+      "aging_time": 0.0,
+      "casting_method_encoded": 0.0,
+      "grain_size": 0.0
+    },
+    "top_features": [
+      [
+        "zinc",
+        0.5226471324402583
+      ],
+      [
+        "elem_Gd",
+        0.24473249709410735
+      ],
+      [
+        "copper",
+        0.1597472585944357
+      ],
+      [
+        "magnesium",
+        0.0501664029660375
+      ],
+      [
+        "elem_Ca",
+        0.01608143734135616
+      ],
+      [
+        "elem_Y",
+        0.006377975903635252
+      ],
+      [
+        "melting_temperature",
+        0.0002020381629568625
+      ],
+      [
+        "elem_Zr",
+        2.2673095606770274e-05
+      ],
+      [
+        "silver",
+        2.2584401606138084e-05
+      ],
+      [
+        "aluminum",
+        0.0
+      ]
+    ]
+  }
+}

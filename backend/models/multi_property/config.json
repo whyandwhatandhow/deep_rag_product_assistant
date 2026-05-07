@@ -1,0 +1,7 @@
+{
+  "target_properties": [
+    "yield_strength",
+    "elongation",
+    "hardness"
+  ]
+}

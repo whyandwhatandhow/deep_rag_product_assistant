@@ -1,0 +1,91 @@
+批量导入报告 - 2026-04-25 17:30:36
+目录: D:\pyprocesses\deep_rag_product_assistant\backend\data\raw\Zn
+产品名称: Zn 合金
+文档类型: paper
+============================================================
+
+总计: 82 | 成功: 82 | 失败: 0
+
+成功文件:
+  ✅ 1-s2.0-S0167577X1630965X-main.pdf: 成功, document_id: 062adfbb-4aa9-45
+  ✅ 1-s2.0-S0167577X17314362-main.pdf: 成功, document_id: 531ac74f-de74-48
+  ✅ 1-s2.0-S0167577X18302064-main.pdf: 成功, document_id: 13419dc3-0f89-4c
+  ✅ 1-s2.0-S0167577X19303064-main.pdf: 成功, document_id: 74a320ab-fe72-48
+  ✅ 1-s2.0-S0167577X20312313-main.pdf: 成功, document_id: ba974581-60f6-46
+  ✅ 1-s2.0-S0167577X24001757-main.pdf: 成功, document_id: 9cb586b0-fe63-4e
+  ✅ 1-s2.0-S0264127519303752-main.pdf: 成功, document_id: 68f6aec7-1752-41
+  ✅ 1-s2.0-S0264127521008431-main.pdf: 成功, document_id: 701eadf7-4d9f-45
+  ✅ 1-s2.0-S0264127525012523-main.pdf: 成功, document_id: 4f927bd5-db1b-48
+  ✅ 1-s2.0-S0360319922017396-main.pdf: 成功, document_id: 60bf87f8-f93d-41
+  ✅ 1-s2.0-S0364591621000584-main.pdf: 成功, document_id: d267d83d-46db-41
+  ✅ 1-s2.0-S0921509316311431-main.pdf: 成功, document_id: 30bf89d1-3e2c-47
+  ✅ 1-s2.0-S092150931730206X-main.pdf: 成功, document_id: 6028dfd9-047e-4e
+  ✅ 1-s2.0-S092150931730802X-main.pdf: 成功, document_id: 17ce79e6-dd13-4d
+  ✅ 1-s2.0-S0921509319301571-main.pdf: 成功, document_id: 5d8528d3-12ec-4c
+  ✅ 1-s2.0-S0921509319313292-main.pdf: 成功, document_id: 3e130c11-c5f2-40
+  ✅ 1-s2.0-S0921509320301350-main.pdf: 成功, document_id: cd941765-4404-49
+  ✅ 1-s2.0-S0921509322011583-main.pdf: 成功, document_id: b078b17d-1122-4b
+  ✅ 1-s2.0-S0921509323003015-main.pdf: 成功, document_id: b83794d0-3e2d-48
+  ✅ 1-s2.0-S0921509323010390-main.pdf: 成功, document_id: 0a43782d-1c43-44
+  ✅ 1-s2.0-S0925838814003326-main.pdf: 成功, document_id: d34579c5-b6b6-49
+  ✅ 1-s2.0-S0925838816319193-main.pdf: 成功, document_id: 8f858fcc-b3ce-47
+  ✅ 1-s2.0-S0925838816335642-main.pdf: 成功, document_id: 16eac2ae-2af3-44
+  ✅ 1-s2.0-S0925838821016777-main.pdf: 成功, document_id: 39a81396-7dc1-49
+  ✅ 1-s2.0-S0925838821029388-main.pdf: 成功, document_id: 301b4463-34aa-40
+  ✅ 1-s2.0-S0925838822022629-main.pdf: 成功, document_id: e76523f9-9303-4c
+  ✅ 1-s2.0-S0925838824023181-main.pdf: 成功, document_id: b1342ea1-177e-43
+  ✅ 1-s2.0-S0925838824032110-main.pdf: 成功, document_id: 9f3bb5c2-5671-48
+  ✅ 1-s2.0-S0925838826018797-main.pdf: 成功, document_id: 8e9ff10c-2f4f-48
+  ✅ 1-s2.0-S092849311530271X-main.pdf: 成功, document_id: 0372d565-ade9-4a
+  ✅ 1-s2.0-S1005030216300743-main.pdf: 成功, document_id: a09383fa-d89b-47
+  ✅ 1-s2.0-S1005030221007040-main.pdf: 成功, document_id: 62df14e6-96c0-49
+  ✅ 1-s2.0-S1005030222004686-main.pdf: 成功, document_id: 392bfa96-3d76-4a
+  ✅ 1-s2.0-S1005030222006818-main.pdf: 成功, document_id: 79b0ccbd-14b8-4d
+  ✅ 1-s2.0-S1005030222006892-main.pdf: 成功, document_id: 6d95bfb8-5786-4c
+  ✅ 1-s2.0-S1044580317317898-main.pdf: 成功, document_id: 4dd34670-8b03-40
+  ✅ 1-s2.0-S1044580322005022-main.pdf: 成功, document_id: c889296f-59ae-4f
+  ✅ 1-s2.0-S1742706119305276-main.pdf: 成功, document_id: 3a3c7e16-2d5d-4c
+  ✅ 1-s2.0-S1742706120305596-main.pdf: 成功, document_id: e0a99666-0e03-41
+  ✅ 1-s2.0-S1742706122000599-main.pdf: 成功, document_id: 34f496d8-9e31-46
+  ✅ 1-s2.0-S1742706124000199-main.pdf: 成功, document_id: 50fc73b0-e152-49
+  ✅ 1-s2.0-S1742706125002521-main.pdf: 成功, document_id: 6b90122e-6edf-44
+  ✅ 1-s2.0-S1751616118315790-main.pdf: 成功, document_id: 8e7ff3b0-ae1a-43
+  ✅ 1-s2.0-S1751616123001169-main.pdf: 成功, document_id: bcdff2f2-bb97-43
+  ✅ 1-s2.0-S2238785422000047-main.pdf: 成功, document_id: d317cf98-eb7b-48
+  ✅ 1-s2.0-S2238785423009146-main.pdf: 成功, document_id: f807c498-4904-42
+  ✅ 1-s2.0-S223878542301373X-main.pdf: 成功, document_id: 7ff59c0f-249f-40
+  ✅ 1-s2.0-S2238785423016216-main.pdf: 成功, document_id: dd135e00-2349-49
+  ✅ 1-s2.0-S2238785423030600-main.pdf: 成功, document_id: 68528df0-e3f3-4b
+  ✅ 1-s2.0-S2238785423031629-main.pdf: 成功, document_id: cf46e29a-d832-4a
+  ✅ 1-s2.0-S223878542400632X-main.pdf: 成功, document_id: df51b7bd-2a51-44
+  ✅ 1-s2.0-S2238785424007312-main.pdf: 成功, document_id: 75867f7a-f616-4e
+  ✅ 1-s2.0-S2238785424012481-main.pdf: 成功, document_id: b7db7198-66e7-4d
+  ✅ 1-s2.0-S2238785424013085-main.pdf: 成功, document_id: be9abcc2-acc8-4d
+  ✅ 1-s2.0-S2238785425027462-main.pdf: 成功, document_id: f980f04a-21b9-4f
+  ✅ 1-s2.0-S2352492824015009-main.pdf: 成功, document_id: c6bd3aa7-e8d4-41
+  ✅ 1-s2.0-S235249282402230X-main.pdf: 成功, document_id: 049c594e-1570-4a
+  ✅ 1-s2.0-S235249282403349X-main.pdf: 成功, document_id: 62dfd50a-cac2-40
+  ✅ 1-s2.0-S2352492825019579-main.pdf: 成功, document_id: 0f11c584-6d7b-48
+  ✅ 1-s2.0-S2452199X21001250-main.pdf: 成功, document_id: 45c1d37b-ddf5-4b
+  ✅ 1-s2.0-S2772950823004168-main.pdf: 成功, document_id: ac509f4a-234e-46
+  ✅ jmmp-08-00184.pdf: 成功, document_id: b8615a9b-1d08-4c
+  ✅ materials-11-00853.pdf: 成功, document_id: d35eb725-9a5a-42
+  ✅ materials-13-02062-v2.pdf: 成功, document_id: 3960166c-583d-49
+  ✅ metals-07-00402-v2.pdf: 成功, document_id: 68416052-11e4-46
+  ✅ metals-10-00253.pdf: 成功, document_id: 51648d1a-c6a7-47
+  ✅ metals-10-00372-v2.pdf: 成功, document_id: 4b21f1f0-ca03-4e
+  ✅ metals-10-00586.pdf: 成功, document_id: 2df337f4-4163-43
+  ✅ metals-12-00520.pdf: 成功, document_id: 9247d110-73d5-4f
+  ✅ metals-12-01444.pdf: 成功, document_id: ee460512-aa2d-42
+  ✅ metals-15-00754-v3.pdf: 成功, document_id: 130280bb-8cc3-4d
+  ✅ s11664-018-6768-6.pdf: 成功, document_id: 71d69dd7-678a-46
+  ✅ s11665-022-06661-3.pdf: 成功, document_id: 7cb6eaf7-1001-46
+  ✅ s11665-022-06940-z.pdf: 成功, document_id: 37de4836-4e80-4c
+  ✅ s11665-022-07122-7.pdf: 成功, document_id: 7889be3f-5422-4a
+  ✅ s11665-023-08293-7.pdf: 成功, document_id: d7a59456-ddf5-47
+  ✅ s12613-016-1336-7.pdf: 成功, document_id: 5f8eea91-d304-41
+  ✅ s40962-023-00993-z.pdf: 成功, document_id: 73518ec9-ee71-48
+  ✅ s41524-025-01666-7.pdf: 成功, document_id: 8d39bcc8-3dd6-4c
+  ✅ Song_2020_Mater._Res._Express_7_086522.pdf: 成功, document_id: ad19ac0c-4cb9-44
+  ✅ the-influence-of-rolling-reduction-on-the-mechanical-corrosion-osteogenic-and-antibacterial-properties-of-zn-mg-alloys.pdf: 成功, document_id: bd99a5e5-3e11-42
+  ✅ WJCC-8-504.pdf: 成功, document_id: 1654c6f2-6057-4e
