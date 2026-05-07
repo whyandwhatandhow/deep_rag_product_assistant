@@ -98,7 +98,8 @@ Extract the following in JSON format ONLY (return valid JSON, no explanations):
     "silver": Ag content in wt% (if applicable),
     "other_elements": {{"element": "content"}} (if applicable),
     "impurities": {{"element": "content"}} (if applicable),
-    "composition_range": {{"element": {{"min": value, "max": value}}}} (if mentioned)
+    "composition_range": {{"element": {{"min": value, "max": value}}}} (if mentioned),
+    "melting_point": melting point of the alloy in °C (if mentioned)
   }},
   "processing": {{
     "melting_temperature": temperature in °C,

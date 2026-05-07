@@ -11,6 +11,7 @@ class AlloyComposition(BaseModel):
     other_elements: Optional[Dict[str, Any]] = Field(default_factory=dict, description="其他元素及其含量")
     impurities: Optional[Dict[str, Any]] = Field(default_factory=dict, description="杂质元素及其含量")
     composition_range: Optional[Dict[str, Dict[str, float]]] = Field(None, description="成分变化范围")
+    melting_point: Optional[float] = Field(None, description="合金熔点 (°C)")
 
 class ProcessingParameters(BaseModel):
     """制备工艺参数"""
