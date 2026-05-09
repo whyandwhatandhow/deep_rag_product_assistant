@@ -2,16 +2,19 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
+from collections import defaultdict
 import io
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
-
-from app.retriever.hybrid import HybridRetriever
-from app.llm.generator import Generator
-from app.models.alloy_data import AlloyData
-from typing import Optional, List, Dict
 import json
 import time
-from collections import defaultdict
+from typing import Dict, List, Optional
+
+from app.llm.generator import Generator
+from app.models.alloy_data import AlloyData
+from app.retriever.hybrid import HybridRetriever
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
+
 
 class BatchAlloyExtractor:
     """批量合金信息提取器"""
@@ -178,17 +181,51 @@ If a field cannot be determined from the content, use null. Return ONLY JSON."""
             return None
 
         try:
-            json_start = response.find("{")
-            json_end = response.rfind("}") + 1
+            # 清理响应：去除 markdown 标记和多余字符
+            cleaned_response = response.strip()
+            if cleaned_response.startswith("```json"):
+                cleaned_response = cleaned_response[7:]
+            if cleaned_response.startswith("```"):
+                cleaned_response = cleaned_response[3:]
+            if cleaned_response.endswith("```"):
+                cleaned_response = cleaned_response[:-3]
+            cleaned_response = cleaned_response.strip()
+            
+            json_start = cleaned_response.find("{")
+            json_end = cleaned_response.rfind("}") + 1
             if json_start == -1 or json_end == 0:
                 print(f"无法从响应中提取JSON")
                 return None
 
-            json_str = response[json_start:json_end]
+            json_str = cleaned_response[json_start:json_end]
+            
+            # 处理 "balance" 字符串（表示剩余成分）
+            json_str = json_str.replace('"balance"', 'null')
+            
+            # 处理 "Balance"（首字母大写）
+            json_str = json_str.replace('"Balance"', 'null')
+            
+            # 处理 "remainder" 等类似表达
+            json_str = json_str.replace('"remainder"', 'null')
+            json_str = json_str.replace('"Remainder"', 'null')
+            
             data = json.loads(json_str)
             alloy_data = AlloyData(**data)
             return alloy_data
 
+        except json.JSONDecodeError as e:
+            print(f"JSON 解析错误: {e}")
+            print(f"错误位置: 行 {e.lineno}, 列 {e.colno}")
+            # 打印错误位置附近的内容
+            lines = json_str.split('\n')
+            if e.lineno <= len(lines):
+                start_line = max(0, e.lineno - 3)
+                end_line = min(len(lines), e.lineno + 2)
+                print("错误附近的内容:")
+                for i in range(start_line, end_line):
+                    prefix = ">>>" if i == e.lineno - 1 else "   "
+                    print(f"{prefix} {i+1}: {lines[i]}")
+            return None
         except Exception as e:
             print(f"解析提取结果时出错: {e}")
             print(f"响应内容: {response[:500]}...")
@@ -227,13 +264,17 @@ If a field cannot be determined from the content, use null. Return ONLY JSON."""
                     if data.composition:
                         components = []
                         if data.composition.zinc:
-                            components.append(f"Zn-{data.composition.zinc:.1f}%")
+                            zinc_val = float(data.composition.zinc) if isinstance(data.composition.zinc, str) else data.composition.zinc
+                            components.append(f"Zn-{zinc_val:.1f}%")
                         if data.composition.magnesium:
-                            components.append(f"Mg-{data.composition.magnesium:.1f}%")
+                            mg_val = float(data.composition.magnesium) if isinstance(data.composition.magnesium, str) else data.composition.magnesium
+                            components.append(f"Mg-{mg_val:.1f}%")
                         if data.composition.aluminum:
-                            components.append(f"Al-{data.composition.aluminum:.1f}%")
+                            al_val = float(data.composition.aluminum) if isinstance(data.composition.aluminum, str) else data.composition.aluminum
+                            components.append(f"Al-{al_val:.1f}%")
                         if data.composition.copper:
-                            components.append(f"Cu-{data.composition.copper:.1f}%")
+                            cu_val = float(data.composition.copper) if isinstance(data.composition.copper, str) else data.composition.copper
+                            components.append(f"Cu-{cu_val:.1f}%")
                         if data.composition.other_elements:
                             for elem, val in data.composition.other_elements.items():
                                 components.append(f"{elem}-{val}")
@@ -343,17 +384,23 @@ If a field cannot be determined from the content, use null. Return ONLY JSON."""
         comp_stats_updates = {}
         for key, values in stats["composition_stats"].items():
             if values and isinstance(values, list):
-                comp_stats_updates[f"{key}_min"] = min(values)
-                comp_stats_updates[f"{key}_max"] = max(values)
-                comp_stats_updates[f"{key}_avg"] = sum(values) / len(values)
+                # 过滤掉非数值类型
+                numeric_values = [v for v in values if isinstance(v, (int, float))]
+                if numeric_values:
+                    comp_stats_updates[f"{key}_min"] = min(numeric_values)
+                    comp_stats_updates[f"{key}_max"] = max(numeric_values)
+                    comp_stats_updates[f"{key}_avg"] = sum(numeric_values) / len(numeric_values)
         stats["composition_stats"].update(comp_stats_updates)
 
         mech_stats_updates = {}
         for key, values in stats["mechanical_stats"].items():
             if values and isinstance(values, list):
-                mech_stats_updates[f"{key}_min"] = min(values)
-                mech_stats_updates[f"{key}_max"] = max(values)
-                mech_stats_updates[f"{key}_avg"] = sum(values) / len(values)
+                # 过滤掉非数值类型
+                numeric_values = [v for v in values if isinstance(v, (int, float))]
+                if numeric_values:
+                    mech_stats_updates[f"{key}_min"] = min(numeric_values)
+                    mech_stats_updates[f"{key}_max"] = max(numeric_values)
+                    mech_stats_updates[f"{key}_avg"] = sum(numeric_values) / len(numeric_values)
         stats["mechanical_stats"].update(mech_stats_updates)
 
         return stats
@@ -369,25 +416,29 @@ If a field cannot be determined from the content, use null. Return ONLY JSON."""
 
         print(f"\n成分范围:")
         comp_stats = stats.get('composition_stats', {})
+        
+        def to_float(val):
+            return float(val) if isinstance(val, str) else val
+            
         if comp_stats.get('zinc_range'):
-            print(f"  Zn: {comp_stats.get('zinc_range_min', 0):.1f}% - {comp_stats.get('zinc_range_max', 0):.1f}% (平均: {comp_stats.get('zinc_range_avg', 0):.1f}%)")
+            print(f"  Zn: {to_float(comp_stats.get('zinc_range_min', 0)):.1f}% - {to_float(comp_stats.get('zinc_range_max', 0)):.1f}% (平均: {to_float(comp_stats.get('zinc_range_avg', 0)):.1f}%)")
         if comp_stats.get('magnesium_range'):
-            print(f"  Mg: {comp_stats.get('magnesium_range_min', 0):.1f}% - {comp_stats.get('magnesium_range_max', 0):.1f}% (平均: {comp_stats.get('magnesium_range_avg', 0):.1f}%)")
+            print(f"  Mg: {to_float(comp_stats.get('magnesium_range_min', 0)):.1f}% - {to_float(comp_stats.get('magnesium_range_max', 0)):.1f}% (平均: {to_float(comp_stats.get('magnesium_range_avg', 0)):.1f}%)")
         if comp_stats.get('aluminum_range'):
-            print(f"  Al: {comp_stats.get('aluminum_range_min', 0):.1f}% - {comp_stats.get('aluminum_range_max', 0):.1f}% (平均: {comp_stats.get('aluminum_range_avg', 0):.1f}%)")
+            print(f"  Al: {to_float(comp_stats.get('aluminum_range_min', 0)):.1f}% - {to_float(comp_stats.get('aluminum_range_max', 0)):.1f}% (平均: {to_float(comp_stats.get('aluminum_range_avg', 0)):.1f}%)")
         if comp_stats.get('copper_range'):
-            print(f"  Cu: {comp_stats.get('copper_range_min', 0):.1f}% - {comp_stats.get('copper_range_max', 0):.1f}% (平均: {comp_stats.get('copper_range_avg', 0):.1f}%)")
+            print(f"  Cu: {to_float(comp_stats.get('copper_range_min', 0)):.1f}% - {to_float(comp_stats.get('copper_range_max', 0)):.1f}% (平均: {to_float(comp_stats.get('copper_range_avg', 0)):.1f}%)")
 
         print(f"\n力学性能范围:")
         mech_stats = stats.get('mechanical_stats', {})
         if mech_stats.get('uts_range'):
-            print(f"  抗拉强度: {mech_stats.get('uts_range_min', 0):.0f} - {mech_stats.get('uts_range_max', 0):.0f} MPa (平均: {mech_stats.get('uts_range_avg', 0):.0f} MPa)")
+            print(f"  抗拉强度: {to_float(mech_stats.get('uts_range_min', 0)):.0f} - {to_float(mech_stats.get('uts_range_max', 0)):.0f} MPa (平均: {to_float(mech_stats.get('uts_range_avg', 0)):.0f} MPa)")
         if mech_stats.get('ys_range'):
-            print(f"  屈服强度: {mech_stats.get('ys_range_min', 0):.0f} - {mech_stats.get('ys_range_max', 0):.0f} MPa (平均: {mech_stats.get('ys_range_avg', 0):.0f} MPa)")
+            print(f"  屈服强度: {to_float(mech_stats.get('ys_range_min', 0)):.0f} - {to_float(mech_stats.get('ys_range_max', 0)):.0f} MPa (平均: {to_float(mech_stats.get('ys_range_avg', 0)):.0f} MPa)")
         if mech_stats.get('elongation_range'):
-            print(f"  延伸率: {mech_stats.get('elongation_range_min', 0):.1f}% - {mech_stats.get('elongation_range_max', 0):.1f}% (平均: {mech_stats.get('elongation_range_avg', 0):.1f}%)")
+            print(f"  延伸率: {to_float(mech_stats.get('elongation_range_min', 0)):.1f}% - {to_float(mech_stats.get('elongation_range_max', 0)):.1f}% (平均: {to_float(mech_stats.get('elongation_range_avg', 0)):.1f}%)")
         if mech_stats.get('hardness_range'):
-            print(f"  硬度: {mech_stats.get('hardness_range_min', 0):.0f} - {mech_stats.get('hardness_range_max', 0):.0f} HV (平均: {mech_stats.get('hardness_range_avg', 0):.0f} HV)")
+            print(f"  硬度: {to_float(mech_stats.get('hardness_range_min', 0)):.0f} - {to_float(mech_stats.get('hardness_range_max', 0)):.0f} HV (平均: {to_float(mech_stats.get('hardness_range_avg', 0)):.0f} HV)")
 
         print(f"\n工艺方法分布:")
         for method, count in stats.get('processing_methods', {}).items():
@@ -411,18 +462,25 @@ if __name__ == "__main__":
         "Zn-Mg", "Zn-Al", "Zn-Cu", "Zn-Ag", "Zn-Mn", 
         "Zn-Sn", "Zn-Ni", "Zn-Ca", "Zn-Mg-Ca", "Zn-Al-Mg",
         "Zn-Al-Cu", "Zn-Mg-Al", "Zn-Cu-Ti", "Zn-Mg-Mn",
-        "Zn-Ca-Mg", "Zn-Ag-Cu", "Zn-Mn-Mg", "Zn-Sn-Mg"
+        "Zn-Ca-Mg", "Zn-Ag-Cu", "Zn-Mn-Mg", "Zn-Sn-Mg",
+        "Al-Zn-Mg", "Al-Zn-Mg-Cu", "Mg-Zn", "Mg-Zn-Al",
+        "Zn-Gd", "Zn-Y", "Zn-La", "Zn-Ce", "Zn-Sr"
     ]
     
-    # 为每个锌合金体系生成多个查询词
+    # 为每个锌合金体系生成多个查询词（针对学术论文优化）
     test_queries = []
     for alloy_system in zinc_alloy_systems:
         test_queries.extend([
             f"{alloy_system} alloy composition mechanical properties",
             f"{alloy_system} alloy tensile strength yield strength",
-            f"{alloy_system} alloy heat treatment aging",
-            f"{alloy_system} alloy corrosion resistance",
-            f"{alloy_system} alloy microstructure phases"
+            f"{alloy_system} alloy heat treatment aging temperature time",
+            f"{alloy_system} alloy corrosion resistance electrochemical",
+            f"{alloy_system} alloy microstructure grain size phases",
+            f"{alloy_system} ultimate tensile strength elongation",
+            f"{alloy_system} hardness elastic modulus",
+            f"{alloy_system} casting rolling extrusion processing",
+            f"{alloy_system} precipitation strengthening",
+            f"{alloy_system} phase transformation"
         ])
     
     print(f"\n当前配置: MAX_CHUNKS_PER_QUERY = {MAX_CHUNKS_PER_QUERY}")

@@ -1,65 +1,13 @@
 [
   {
-    "alloy_id": "ZnMg1.6_001",
-    "alloy_system": "Zn-Mg",
+    "alloy_id": "AlZnMg_ZnMgRatio_001",
+    "alloy_system": "Al-Zn-Mg",
     "year": null,
-    "paper_title": null,
+    "paper_title": "Effect of Zn/Mg ratio on precipitation and strengthening of Al–Zn–Mg alloys after aging",
     "doi": null,
     "authors": [],
     "institution": null,
-    "composition": {
-      "zinc": 98.4,
-      "magnesium": 1.6,
-      "aluminum": null,
-      "copper": null,
-      "silver": null,
-      "other_elements": null,
-      "impurities": {}
-    },
-    "processing": {
-      "melting_temperature": null,
-      "melting_time": null,
-      "casting_method": null,
-      "cooling_rate": null,
-      "rolling_reduction": null,
-      "extrusion_ratio": null,
-      "annealing_temperature": null,
-      "annealing_time": null,
-      "aging_temperature": null,
-      "aging_time": null
-    },
-    "microstructure": {
-      "phases": [
-        "MgZn2"
-      ],
-      "grain_size": null,
-      "precipitates": null,
-      "texture": null
-    },
-    "mechanical_properties": {
-      "ultimate_tensile_strength": null,
-      "yield_strength": null,
-      "elongation": null,
-      "hardness": 97.0,
-      "elastic_modulus": null
-    },
-    "corrosion_properties": null,
-    "testing_conditions": null,
-    "key_findings": [
-      "Hardness increases with increasing Mg content, reaching 97 HV5 for Zn–1.6 Mg alloy.",
-      "MgZn2 phase is present in as-extruded Zn–0.8 Mg alloy."
-    ],
-    "optimization_goals": [],
-    "notes": null
-  },
-  {
-    "alloy_id": "ZnMg1.5_001",
-    "alloy_system": "Al-Zn-Mg-Cu",
-    "year": null,
-    "paper_title": null,
-    "doi": null,
-    "authors": [],
-    "institution": null,
+    "batch_id": null,
     "composition": {
       "zinc": null,
       "magnesium": null,
@@ -67,214 +15,379 @@
       "copper": null,
       "silver": null,
       "other_elements": null,
-      "impurities": {}
+      "impurities": {},
+      "composition_range": null,
+      "melting_point": null
     },
     "processing": {
       "melting_temperature": null,
       "melting_time": null,
+      "melting_atmosphere": null,
       "casting_method": null,
       "cooling_rate": null,
+      "mold_temperature": null,
       "rolling_reduction": null,
       "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
       "annealing_temperature": null,
       "annealing_time": null,
-      "aging_temperature": null,
-      "aging_time": null
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": 130.0,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": []
     },
     "microstructure": {
-      "phases": [
-        "η' (metastable strengthening phase)",
-        "η (equilibrium phase)",
-        "GPZs (Guinier–Preston zones)"
-      ],
+      "phases": null,
+      "phase_fraction": null,
       "grain_size": null,
+      "grain_size_distribution": null,
       "precipitates": null,
-      "texture": null
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
     },
     "mechanical_properties": {
       "ultimate_tensile_strength": null,
       "yield_strength": null,
       "elongation": null,
       "hardness": null,
-      "elastic_modulus": null
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
     },
     "corrosion_properties": null,
     "testing_conditions": null,
     "key_findings": [
-      "The precipitation sequence of Al-Zn-Mg-Cu alloy during aging is: supersaturated solid solution → GPZs → η' → η, with η' being the main strengthening phase.",
-      "The Zn/Mg ratio (1.5, 1.8, 2.1) affects the aging response and mechanical properties under single-step and double-step aging.",
-      "Pre-CR (pre-cold rolling) can improve mechanical properties of high-Zn-content Al-Zn-Mg-Sc alloys.",
-      "Mg addition to Al-20Zn alloy promotes dynamic precipitation of Zn and η phases during hot rolling, with η phase size increasing with Mg content."
+      "The hardness of peak-aged Al–Zn–Mg alloys tends to increase with increasing Zn/Mg ratio.",
+      "The study investigates the influence of Zn/Mg ratio (1.2-3.5) on precipitation and strengthening effect."
     ],
     "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
     "notes": null
   },
   {
-    "alloy_id": "ZnCu2Ti0.05_001",
-    "alloy_system": "Zn-Cu-Ti",
-    "year": null,
+    "alloy_id": "7E36",
+    "alloy_system": "Al-Zn-Mg-Cu-Zr-Sc",
+    "year": 2023,
     "paper_title": null,
     "doi": null,
     "authors": [],
     "institution": null,
+    "batch_id": null,
     "composition": {
-      "zinc": 97.95,
+      "zinc": 9.2,
+      "magnesium": 2.2,
+      "aluminum": null,
+      "copper": null,
+      "silver": null,
+      "other_elements": {
+        "Cu": 2.3,
+        "Sc": 0.2,
+        "Zr": 0.15
+      },
+      "impurities": {},
+      "composition_range": null,
+      "melting_point": null
+    },
+    "processing": {
+      "melting_temperature": null,
+      "melting_time": null,
+      "melting_atmosphere": null,
+      "casting_method": null,
+      "cooling_rate": null,
+      "mold_temperature": null,
+      "rolling_reduction": null,
+      "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
+      "annealing_temperature": null,
+      "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
+      "aging_temperature": null,
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": []
+    },
+    "microstructure": {
+      "phases": null,
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
+      "precipitates": null,
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
+    },
+    "mechanical_properties": {
+      "ultimate_tensile_strength": 773.0,
+      "yield_strength": 758.0,
+      "elongation": 11.5,
+      "hardness": null,
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
+    },
+    "corrosion_properties": null,
+    "testing_conditions": null,
+    "key_findings": [
+      "Al-9.2Zn-2.2Mg-2.3Cu-0.2Sc-0.15Zr (7E36) alloy achieves peak strength with UTS of 773 MPa, YS of 758 MPa, and elongation of 11.5%.",
+      "Compared to 7036 alloy and 7E55 alloy, YS of 7E36 alloy is increased by 11.5% and 14.6%, respectively.",
+      "Increasing Zn content leads to weaker solid solution properties in Al-Zn-Mg alloys."
+    ],
+    "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
+    "notes": null
+  },
+  {
+    "alloy_id": "Zn-5Gd_001",
+    "alloy_system": "Zn-Gd",
+    "year": 2024,
+    "paper_title": null,
+    "doi": null,
+    "authors": [],
+    "institution": null,
+    "batch_id": null,
+    "composition": {
+      "zinc": 95.0,
       "magnesium": null,
       "aluminum": null,
       "copper": null,
       "silver": null,
       "other_elements": {
-        "Cu": "2 wt%",
-        "Ti": "0.05 wt%"
+        "Gd": "5 wt%"
       },
-      "impurities": {}
+      "impurities": {},
+      "composition_range": null,
+      "melting_point": null
     },
     "processing": {
       "melting_temperature": null,
       "melting_time": null,
-      "casting_method": "steel mold casting (poured into steel mold preheated at 150°C)",
+      "melting_atmosphere": null,
+      "casting_method": "casting",
       "cooling_rate": null,
+      "mold_temperature": null,
       "rolling_reduction": null,
       "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
       "annealing_temperature": null,
       "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
       "aging_temperature": null,
-      "aging_time": null
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": []
     },
     "microstructure": {
       "phases": null,
+      "phase_fraction": null,
       "grain_size": null,
+      "grain_size_distribution": null,
       "precipitates": null,
-      "texture": null
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
     },
     "mechanical_properties": {
       "ultimate_tensile_strength": null,
       "yield_strength": null,
       "elongation": null,
       "hardness": null,
-      "elastic_modulus": null
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
     },
     "corrosion_properties": null,
     "testing_conditions": null,
     "key_findings": [
-      "The effects of Ti on microstructure, mechanical properties and biodegradation behavior of Zn-2Cu alloy were investigated.",
-      "Zn-2Cu-xTi (x = 0, 0.05 and 0.1 wt%) alloys were prepared from pure Zn, pure copper, and Cu-22Ti master alloy."
+      "Hot-rolled and hot-extruded Zn-5Gd showed significantly improved mechanical properties compared to pure Zn.",
+      "HR Zn-5Gd showed a unique combination of tensile properties with an ultimate tensile strength reported (value cut off in text)."
     ],
     "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
     "notes": null
   },
   {
-    "alloy_id": "Zn1Mg_001",
-    "alloy_system": "Zn-Mg-RE",
+    "alloy_id": "Zn-0.1Al-0.1Mn-0.1Cu-0.1Ag_001",
+    "alloy_system": "Zn-Al-Mn-Cu-Ag",
     "year": null,
     "paper_title": null,
     "doi": null,
     "authors": [],
     "institution": null,
+    "batch_id": null,
     "composition": {
-      "zinc": 98.9,
-      "magnesium": 1.0,
-      "aluminum": null,
+      "zinc": 99.6,
+      "magnesium": null,
+      "aluminum": 0.1,
       "copper": null,
       "silver": null,
       "other_elements": {
-        "RE": "0.1 (Er, Dy, or Ho)"
+        "Mn": 0.1,
+        "Cu": 0.1,
+        "Ag": 0.1
       },
-      "impurities": {}
+      "impurities": {},
+      "composition_range": null,
+      "melting_point": null
     },
     "processing": {
       "melting_temperature": null,
       "melting_time": null,
-      "casting_method": "gravity casting",
+      "melting_atmosphere": null,
+      "casting_method": "casting, homogenization, and extrusion",
       "cooling_rate": null,
+      "mold_temperature": null,
       "rolling_reduction": null,
       "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
       "annealing_temperature": null,
       "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
       "aging_temperature": null,
-      "aging_time": null
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": []
     },
     "microstructure": {
-      "phases": [
-        "Zn matrix",
-        "Mg-containing intermetallic",
-        "RE-containing phases"
-      ],
+      "phases": null,
+      "phase_fraction": null,
       "grain_size": null,
+      "grain_size_distribution": null,
       "precipitates": null,
-      "texture": null
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
     },
     "mechanical_properties": {
-      "ultimate_tensile_strength": null,
-      "yield_strength": null,
-      "elongation": null,
+      "ultimate_tensile_strength": 207.0,
+      "yield_strength": 154.0,
+      "elongation": 82.2,
       "hardness": null,
-      "elastic_modulus": null
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
     },
     "corrosion_properties": null,
     "testing_conditions": null,
     "key_findings": [
-      "Zn–1Mg and Zn–1Mg–0.1RE (RE = Er, Dy, and Ho) alloys were melted and cast for evaluation.",
-      "The study comprehensively evaluated mechanical properties, corrosion behavior, hemolysis rate, APTT, and cytotoxicity of REE-containing Zn alloys.",
-      "Alloying with biocompatible elements induces solution strengthening and precipitation hardening in Zn alloys."
+      "Compared to pure Zn, the as-extruded Zn-0.1Al-0.1Mn-0.1Cu-0.1Ag alloy exhibited significantly enhanced mechanical properties.",
+      "The alloy achieved an elongation of 82.2 ± 2.94 %, YS of 154 ± 1.7 MPa, and UTS of 207 ± 0.9 MPa."
     ],
     "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
     "notes": null
   },
   {
-    "alloy_id": "Mg97.94Zn0.56Y1.5_001",
-    "alloy_system": "Mg-Zn-Y",
+    "alloy_id": "Zn-0.1Al-0.05Mg_001",
+    "alloy_system": "Zn-Al-Mg",
     "year": null,
     "paper_title": null,
     "doi": null,
     "authors": [],
     "institution": null,
+    "batch_id": null,
     "composition": {
-      "zinc": 0.56,
-      "magnesium": 97.94,
-      "aluminum": null,
+      "zinc": "balance",
+      "magnesium": 0.05,
+      "aluminum": 0.1,
       "copper": null,
       "silver": null,
-      "other_elements": {
-        "Y": 1.5
-      },
-      "impurities": {}
+      "other_elements": null,
+      "impurities": {},
+      "composition_range": null,
+      "melting_point": null
     },
     "processing": {
       "melting_temperature": null,
       "melting_time": null,
+      "melting_atmosphere": null,
       "casting_method": null,
       "cooling_rate": null,
+      "mold_temperature": null,
       "rolling_reduction": null,
       "extrusion_ratio": null,
+      "deformation_temperature": null,
+      "deformation_rate": null,
       "annealing_temperature": null,
       "annealing_time": null,
+      "solution_temperature": null,
+      "solution_time": null,
       "aging_temperature": null,
-      "aging_time": null
+      "aging_time": null,
+      "surface_treatment": null,
+      "process_route": []
     },
     "microstructure": {
       "phases": [
-        "α-Mg",
-        "Zn- and Y-rich stacking faults"
+        "primary grains",
+        "twins"
       ],
-      "grain_size": "0.7-1.2 (700-1200 nm)",
+      "phase_fraction": null,
+      "grain_size": null,
+      "grain_size_distribution": null,
       "precipitates": null,
-      "texture": null
+      "precipitate_size": null,
+      "precipitate_density": null,
+      "texture": null,
+      "dislocation_density": null
     },
     "mechanical_properties": {
       "ultimate_tensile_strength": null,
-      "yield_strength": 362.0,
-      "elongation": 18.2,
+      "yield_strength": null,
+      "elongation": null,
       "hardness": null,
-      "elastic_modulus": null
+      "elastic_modulus": null,
+      "poisson_ratio": null,
+      "fatigue_strength": null,
+      "impact_energy": null,
+      "compressive_strength": null,
+      "shear_strength": null,
+      "properties_at_temperature": null
     },
     "corrosion_properties": null,
     "testing_conditions": null,
     "key_findings": [
-      "Optimal tensile properties (yield strength 362 MPa, elongation 18.2%) achieved for Mg97.94Zn0.56Y1.5 alloy extruded at 1.9 s−1",
-      "Inhomogeneous internal strain distribution in bimodal microstructure is key for mechanical performance"
+      "Grain size in Zn-0.1Al-0.05Mg alloy has a major role in twinning.",
+      "Critical stress for twinning decreases with increasing grain size.",
+      "Contribution of twinning increases with increasing grain size.",
+      "Hot extruded alloys' microstructures present twinning and subsequent slip deformation inside primary grains and also twins."
     ],
     "optimization_goals": [],
+    "simulation_parameters": null,
+    "experimental_verification": null,
     "notes": null
   }
 ]

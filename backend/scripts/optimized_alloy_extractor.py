@@ -1,15 +1,19 @@
-import sys
+import io
+import json
 import os
+import sys
+from typing import List, Optional
+
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-import io
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
-
-from app.retriever.hybrid import HybridRetriever
 from app.llm.generator import Generator
 from app.models.alloy_data import AlloyData
-from typing import Optional, List
-import json
+from app.retriever.hybrid import HybridRetriever
+
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
+
 
 class OptimizedAlloyExtractor:
     """优化后的合金信息提取器"""
@@ -139,7 +143,7 @@ If a field cannot be determined from the content, use null. Return ONLY JSON."""
 
         if extracted_data:
             with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump([d.dict() for d in extracted_data], f, ensure_ascii=False, indent=2)
+                json.dump([d.model_dump() for d in extracted_data], f, ensure_ascii=False, indent=2)
             print(f"\n已保存 {len(extracted_data)} 条数据到 {output_file}")
 
         return extracted_data
@@ -170,11 +174,17 @@ if __name__ == "__main__":
         total_zn = []
 
         for data in results:
-            systems[data.alloy_system] += 1
-            if data.mechanical_properties.ultimate_tensile_strength:
-                total_uts.append(data.mechanical_properties.ultimate_tensile_strength)
-            if data.composition.zinc:
-                total_zn.append(data.composition.zinc)
+            if data:
+                if data.alloy_system:
+                    systems[data.alloy_system] += 1
+                if data.mechanical_properties and data.mechanical_properties.ultimate_tensile_strength:
+                    uts = data.mechanical_properties.ultimate_tensile_strength
+                    if isinstance(uts, (int, float)):
+                        total_uts.append(uts)
+                if data.composition and data.composition.zinc:
+                    zn = data.composition.zinc
+                    if isinstance(zn, (int, float)):
+                        total_zn.append(zn)
 
         print(f"\n合金体系分布:")
         for sys, count in systems.items():

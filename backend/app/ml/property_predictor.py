@@ -32,12 +32,12 @@ class PropertyPredictor:
         """构建模型"""
         if self.model_type == 'random_forest':
             self.model = RandomForestRegressor(
-                n_estimators=100,
-                max_depth=10,
-                min_samples_split=2,
-                min_samples_leaf=1,
+                n_estimators=50,  # 减少树的数量
+                max_depth=8,      # 减小树深度
+                min_samples_split=3,
+                min_samples_leaf=2,
                 random_state=42,
-                n_jobs=-1
+                n_jobs=1          # 使用单线程避免Windows死锁
             )
         elif self.model_type == 'gradient_boosting':
             self.model = GradientBoostingRegressor(

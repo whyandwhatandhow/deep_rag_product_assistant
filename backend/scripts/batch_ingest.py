@@ -54,7 +54,7 @@ def ingest_single_file(file_path: Path, product_name: str, doc_type: str, indexe
         preprocessor = DocumentPreprocessor()
         processed_docs = preprocessor.preprocess(raw_docs, product_name=product_name, doc_type=doc_type)
 
-        chunker = DocumentChunker(chunk_size=600, chunk_overlap=100)
+        chunker = DocumentChunker(chunk_size=1200, chunk_overlap=200)
         final_chunks = chunker.chunk(processed_docs)
 
         document_id = indexer.index_documents(final_chunks, product_name=product_name, doc_type=doc_type)

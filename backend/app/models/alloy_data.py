@@ -1,17 +1,17 @@
 from pydantic import BaseModel, Field
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Union
 
 class AlloyComposition(BaseModel):
     """合金成分"""
-    zinc: Optional[float] = Field(None, description="Zn含量 (wt%)")
-    magnesium: Optional[float] = Field(None, description="Mg含量 (wt%)")
-    aluminum: Optional[float] = Field(None, description="Al含量 (wt%)")
-    copper: Optional[float] = Field(None, description="Cu含量 (wt%)")
-    silver: Optional[float] = Field(None, description="Ag含量 (wt%)")
+    zinc: Optional[Union[float, str]] = Field(None, description="Zn含量 (wt%)")
+    magnesium: Optional[Union[float, str]] = Field(None, description="Mg含量 (wt%)")
+    aluminum: Optional[Union[float, str]] = Field(None, description="Al含量 (wt%)")
+    copper: Optional[Union[float, str]] = Field(None, description="Cu含量 (wt%)")
+    silver: Optional[Union[float, str]] = Field(None, description="Ag含量 (wt%)")
     other_elements: Optional[Dict[str, Any]] = Field(default_factory=dict, description="其他元素及其含量")
     impurities: Optional[Dict[str, Any]] = Field(default_factory=dict, description="杂质元素及其含量")
-    composition_range: Optional[Dict[str, Dict[str, float]]] = Field(None, description="成分变化范围")
-    melting_point: Optional[float] = Field(None, description="合金熔点 (°C)")
+    composition_range: Optional[Dict[str, Dict[str, Union[float, None]]]] = Field(None, description="成分变化范围")
+    melting_point: Optional[Union[float, str]] = Field(None, description="合金熔点 (°C)")
 
 class ProcessingParameters(BaseModel):
     """制备工艺参数"""
@@ -38,13 +38,13 @@ class Microstructure(BaseModel):
     """微观结构"""
     phases: Optional[List[str]] = Field(default_factory=list, description="主要相组成")
     phase_fraction: Optional[Dict[str, float]] = Field(None, description="各相体积分数")
-    grain_size: Optional[Any] = Field(None, description="平均晶粒尺寸 (μm)")
+    grain_size: Optional[Union[float, str]] = Field(None, description="平均晶粒尺寸 (μm)")
     grain_size_distribution: Optional[Dict[str, float]] = Field(None, description="晶粒尺寸分布")
     precipitates: Optional[Any] = Field(None, description="析出物信息")
-    precipitate_size: Optional[float] = Field(None, description="析出物尺寸 (nm)")
-    precipitate_density: Optional[float] = Field(None, description="析出物密度 (个/μm³)")
+    precipitate_size: Optional[Union[float, str]] = Field(None, description="析出物尺寸 (nm)")
+    precipitate_density: Optional[Union[float, str]] = Field(None, description="析出物密度 (个/μm³)")
     texture: Optional[str] = Field(None, description="织构特征")
-    dislocation_density: Optional[float] = Field(None, description="位错密度 (m⁻²)")
+    dislocation_density: Optional[Union[float, str]] = Field(None, description="位错密度 (m⁻²)")
 
 class MechanicalProperties(BaseModel):
     """力学性能"""
@@ -62,10 +62,10 @@ class MechanicalProperties(BaseModel):
 
 class CorrosionProperties(BaseModel):
     """耐腐蚀性能"""
-    corrosion_rate: Optional[float] = Field(None, description="腐蚀速率 (mm/year)")
-    corrosion_potential: Optional[float] = Field(None, description="腐蚀电位 (mV)")
-    polarization_resistance: Optional[float] = Field(None, description="极化电阻 (Ω·cm²)")
-    icorr: Optional[float] = Field(None, description="腐蚀电流密度 (μA/cm²)")
+    corrosion_rate: Optional[Union[float, str]] = Field(None, description="腐蚀速率 (mm/year)")
+    corrosion_potential: Optional[Union[float, str]] = Field(None, description="腐蚀电位 (mV)")
+    polarization_resistance: Optional[Union[float, str]] = Field(None, description="极化电阻 (Ω·cm²)")
+    icorr: Optional[Union[float, str]] = Field(None, description="腐蚀电流密度 (μA/cm²)")
     corrosion_test_method: Optional[str] = Field(None, description="腐蚀测试方法")
     test_medium: Optional[str] = Field(None, description="测试介质")
 

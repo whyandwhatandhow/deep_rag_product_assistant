@@ -12,6 +12,14 @@ from app.ml.property_predictor import PropertyPredictor, MultiPropertyPredictor
 from app.ml.multi_objective_optimizer import MultiObjectiveOptimizer
 import json
 
+# 进度条库
+try:
+    from tqdm import tqdm
+    HAS_TQDM = True
+except ImportError:
+    HAS_TQDM = False
+    print("警告: 未安装 tqdm，将使用简单进度显示")
+
 
 def train_single_property_model():
     """训练单性能预测模型"""
@@ -64,24 +72,57 @@ def train_multi_property_models():
     print("="*60)
     
     # 准备数据
+    print("\n[步骤 1/3] 加载数据...")
     data_prep = MLDataPreparation("alloy_database.db")
     
     try:
+        print("  - 从数据库读取数据...")
         X_train, X_test, y_train, y_test, feature_names, target_properties = \
             data_prep.prepare_multi_target_data()
         
+        print(f"\n[步骤 2/3] 训练模型 ({len(target_properties)} 个目标属性)...")
         # 训练多性能预测器
         multi_predictor = MultiPropertyPredictor()
-        all_metrics = multi_predictor.train(
-            X_train, y_train, X_test, y_test,
-            feature_names, target_properties,
-            model_type='random_forest'
-        )
+        
+        # 使用进度条训练每个属性模型
+        all_metrics = {}
+        total_targets = len(target_properties)
+        
+        if HAS_TQDM:
+            target_iterator = tqdm(target_properties, desc="训练进度", bar_format="{l_bar}{bar:30}{r_bar}", ncols=80)
+        else:
+            target_iterator = target_properties
+            print(f"开始训练 {total_targets} 个模型...")
+        
+        for i, target in enumerate(target_iterator, 1):
+            if HAS_TQDM:
+                target_iterator.set_description(f"训练 {target}")
+            
+            if not HAS_TQDM:
+                print(f"\n[{i}/{total_targets}] 训练 {target}...")
+            
+            predictor = PropertyPredictor('random_forest')
+            metrics = predictor.train(
+                X_train, y_train[:, i-1],
+                X_test, y_test[:, i-1],
+                feature_names, target
+            )
+            
+            multi_predictor.predictors[target] = predictor
+            all_metrics[target] = metrics
+            
+            if HAS_TQDM:
+                target_iterator.set_description(f"完成 {target}")
+        
+        if HAS_TQDM:
+            target_iterator.close()
         
         # 保存模型
+        print("\n[步骤 3/3] 保存模型...")
         multi_predictor.save("models/multi_property")
         
         # 保存指标
+        print("  - 保存训练指标...")
         with open("models/training_metrics.json", 'w', encoding='utf-8') as f:
             json.dump(all_metrics, f, ensure_ascii=False, indent=2)
         
@@ -95,6 +136,8 @@ def train_multi_property_models():
         
     except Exception as e:
         print(f"训练失败: {e}")
+        import traceback
+        traceback.print_exc()
         return None, None
 
 
