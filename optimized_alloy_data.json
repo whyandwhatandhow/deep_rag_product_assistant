@@ -14,7 +14,10 @@
       "aluminum": null,
       "copper": null,
       "silver": null,
-      "other_elements": null,
+      "other_elements": {
+        "Zn/Mg ratio": "1.2-3.5",
+        "Zn+Mg": "10 wt%"
+      },
       "impurities": {},
       "composition_range": null,
       "melting_point": null
@@ -66,8 +69,11 @@
     "corrosion_properties": null,
     "testing_conditions": null,
     "key_findings": [
-      "The hardness of peak-aged Al–Zn–Mg alloys tends to increase with increasing Zn/Mg ratio.",
-      "The study investigates the influence of Zn/Mg ratio (1.2-3.5) on precipitation and strengthening effect."
+      "The hardness of the peak-aged alloys tends to increase with the increase of Zn/Mg ratio.",
+      "The ultimate strengths of four alloys with increasing Zn/Mg ratio were 356, 372, 388, and 394 MPa, respectively.",
+      "Yield strengths were 307, 314, 332, and 342 MPa, respectively.",
+      "Elongation values were similar: 17.5%, 17.8%, 19.8%, and 18.6%.",
+      "Both ultimate tensile strength and yield strength showed a clear increasing trend as the Zn/Mg ratio rose."
     ],
     "optimization_goals": [],
     "simulation_parameters": null,
@@ -146,8 +152,8 @@
     "testing_conditions": null,
     "key_findings": [
       "Al-9.2Zn-2.2Mg-2.3Cu-0.2Sc-0.15Zr (7E36) alloy achieves peak strength with UTS of 773 MPa, YS of 758 MPa, and elongation of 11.5%.",
-      "Compared to 7036 alloy and 7E55 alloy, YS of 7E36 alloy is increased by 11.5% and 14.6%, respectively.",
-      "Increasing Zn content leads to weaker solid solution properties in Al-Zn-Mg alloys."
+      "Compared to 7036 and 7E55 alloys, YS of 7E36 is increased by 11.5% and 14.6%, respectively.",
+      "High Zn content and addition of Sc and Zr improve aging precipitation behavior and mechanical properties."
     ],
     "optimization_goals": [],
     "simulation_parameters": null,
@@ -170,7 +176,7 @@
       "copper": null,
       "silver": null,
       "other_elements": {
-        "Gd": "5 wt%"
+        "gadolinium": "5 wt%"
       },
       "impurities": {},
       "composition_range": null,
@@ -223,8 +229,8 @@
     "corrosion_properties": null,
     "testing_conditions": null,
     "key_findings": [
-      "Hot-rolled and hot-extruded Zn-5Gd showed significantly improved mechanical properties compared to pure Zn.",
-      "HR Zn-5Gd showed a unique combination of tensile properties with an ultimate tensile strength reported (value cut off in text)."
+      "HR and HE Zn-5Gd exhibited significantly improved mechanical properties compared with pure Zn counterparts",
+      "HR Zn-5Gd showed a unique combination of tensile properties"
     ],
     "optimization_goals": [],
     "simulation_parameters": null,
@@ -311,7 +317,7 @@
     "notes": null
   },
   {
-    "alloy_id": "Zn-0.1Al-0.05Mg_001",
+    "alloy_id": "ZnAlMg_001",
     "alloy_system": "Zn-Al-Mg",
     "year": null,
     "paper_title": null,
@@ -320,7 +326,7 @@
     "institution": null,
     "batch_id": null,
     "composition": {
-      "zinc": "balance",
+      "zinc": 0.1,
       "magnesium": 0.05,
       "aluminum": 0.1,
       "copper": null,
@@ -351,10 +357,7 @@
       "process_route": []
     },
     "microstructure": {
-      "phases": [
-        "primary grains",
-        "twins"
-      ],
+      "phases": null,
       "phase_fraction": null,
       "grain_size": null,
       "grain_size_distribution": null,
@@ -380,10 +383,9 @@
     "corrosion_properties": null,
     "testing_conditions": null,
     "key_findings": [
-      "Grain size in Zn-0.1Al-0.05Mg alloy has a major role in twinning.",
+      "Grain size in Zn-0.1Al-0.05Mg (wt%) alloy has a major role in twinning.",
       "Critical stress for twinning decreases with increasing grain size.",
-      "Contribution of twinning increases with increasing grain size.",
-      "Hot extruded alloys' microstructures present twinning and subsequent slip deformation inside primary grains and also twins."
+      "Contribution of twinning increases with increasing grain size."
     ],
     "optimization_goals": [],
     "simulation_parameters": null,

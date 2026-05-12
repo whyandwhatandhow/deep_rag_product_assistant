@@ -32,8 +32,8 @@ class PropertyPredictor:
         """构建模型"""
         if self.model_type == 'random_forest':
             self.model = RandomForestRegressor(
-                n_estimators=50,  # 减少树的数量
-                max_depth=8,      # 减小树深度
+                n_estimators=100,  # 减少树的数量
+                max_depth=10,      # 减小树深度
                 min_samples_split=3,
                 min_samples_leaf=2,
                 random_state=42,

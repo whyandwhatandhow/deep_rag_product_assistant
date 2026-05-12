@@ -134,28 +134,49 @@ class HybridRetriever:
         where = self._get_product_filter(product_filter)
         print(f"Hybrid Retrieval | query: {query[:60]}... | filter: {where}")
 
-        # 调试：直接使用 Chroma 客户端查询，查看更多信息
-        try:
-            collection = self.client.get_collection(name=self.collection_name)
-            print(f"集合文档总数: {collection.count()}")
-            
-            # 尝试不带过滤条件的查询
-            if where:
-                print("尝试不带过滤条件的查询...")
-                all_docs = collection.get(limit=5)
-                print(f"不带过滤条件的文档数量: {len(all_docs['documents'])}")
-                if all_docs['documents']:
-                    print(f"第一个文档: {all_docs['documents'][0][:50]}...")
-                    print(f"第一个文档元数据: {all_docs['metadatas'][0]}")
-        except Exception as e:
-            print(f"调试查询失败: {e}")
+        # 获取集合信息
+        collection = self.client.get_collection(name=self.collection_name)
+        total_docs = collection.count()
+        print(f"集合文档总数: {total_docs}")
 
+        # 第一次查询：带过滤条件
         docs = self.vectorstore.similarity_search(
             query=query,
             k=top_k,
             filter=where if where else None
         )
-        print(f"相似度搜索结果数量: {len(docs)}")
+        print(f"相似度搜索结果数量（带过滤）: {len(docs)}")
+
+        # 容错机制 1：如果带过滤查询结果为空，尝试不带过滤
+        if len(docs) == 0 and where:
+            print("带过滤查询返回空，尝试不带过滤条件的查询...")
+            docs = self.vectorstore.similarity_search(
+                query=query,
+                k=top_k,
+                filter=None
+            )
+            print(f"不带过滤查询结果数量: {len(docs)}")
+
+        # 容错机制 2：如果仍然为空，尝试更宽松的查询（增加 top_k）
+        if len(docs) == 0:
+            print("查询结果仍为空，尝试增加检索数量...")
+            docs = self.vectorstore.similarity_search(
+                query=query,
+                k=top_k * 3,
+                filter=None
+            )
+            print(f"增加数量后查询结果: {len(docs)}")
+
+        # 容错机制 3：如果仍然为空，尝试简化查询词
+        if len(docs) == 0 and len(query.split()) > 2:
+            simplified_query = " ".join(query.split()[:2])
+            print(f"查询结果仍为空，尝试简化查询词: {simplified_query}")
+            docs = self.vectorstore.similarity_search(
+                query=simplified_query,
+                k=top_k * 2,
+                filter=None
+            )
+            print(f"简化查询后结果数量: {len(docs)}")
 
         chunks: List[RetrievedChunk] = []
         for i, doc in enumerate(docs):

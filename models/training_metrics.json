@@ -2,252 +2,366 @@
   "yield_strength": {
     "model_type": "random_forest",
     "target_property": "yield_strength",
-    "train_samples": 10824,
-    "test_samples": 2707,
-    "n_features": 21,
-    "train_mse": 0.031350052311304326,
-    "train_rmse": 0.1770594598187409,
-    "train_mae": 0.11160944817386023,
-    "train_r2": 0.9986149912390829,
-    "test_mse": 0.031987489164268794,
-    "test_rmse": 0.17885046593249007,
-    "test_mae": 0.11058792890822473,
-    "test_r2": 0.998987284256374,
-    "target_mean": 217.6533314575441,
-    "target_std": 4.75765421717628,
-    "target_min": 154.0,
-    "target_max": 218.14,
+    "train_samples": 1088,
+    "test_samples": 272,
+    "n_features": 59,
+    "train_mse": 1935.6307328876,
+    "train_rmse": 43.99580358270093,
+    "train_mae": 18.905856832339296,
+    "train_r2": 0.9408166670595725,
+    "test_mse": 3498.6649795482945,
+    "test_rmse": 59.1495137727124,
+    "test_mae": 26.88427829373592,
+    "test_r2": 0.8970336688715681,
+    "target_mean": 351.88231598323745,
+    "target_std": 180.84709833953383,
+    "target_min": 6.18,
+    "target_max": 758.0,
     "feature_importance": {
-      "zinc": 5.403100654862906e-05,
-      "magnesium": 0.9689060372181193,
-      "aluminum": 0.0,
-      "copper": 0.016658849760864406,
-      "silver": 7.883909326102513e-06,
-      "elem_RE": 0.0,
-      "elem_Gd": 0.01350162944931379,
-      "elem_Zr": 7.989696391444235e-06,
-      "elem_Mn": 4.779082378427153e-05,
+      "zinc": 0.017902711674243083,
+      "magnesium": 0.005285455060844197,
+      "aluminum": 0.0073647810683540186,
+      "copper": 0.05010864453557645,
+      "silver": 0.0022849499849041566,
+      "elem_Li": 0.001181507588662191,
+      "elem_Nd": 0.004447102468561706,
+      "elem_Ca": 0.0009489678781331695,
+      "elem_Ce": 0.0,
+      "elem_Fe": 8.98686817909162e-05,
+      "elem_Zr": 0.008817330599803578,
+      "elem_zirconium": 4.50110904025331e-17,
+      "elem_Ga": 0.0,
+      "elem_La": 0.0,
+      "elem_Zn": 0.0,
+      "elem_calcium": 0.0,
+      "elem_LaMM": 0.0,
+      "elem_Sr": 0.001076823240183634,
       "elem_Er": 0.0,
-      "elem_Ca": 0.0007931426920029745,
       "elem_Dy": 0.0,
-      "elem_Li": 0.0,
+      "elem_Gd": 0.01288798992212922,
+      "elem_Ti": 0.0006544670066501459,
+      "elem_WE43": 0.0,
+      "elem_Y": 0.00013308245794241708,
+      "elem_Zn/Gd ratio": 0.0,
+      "elem_Cr": 0.0,
+      "elem_manganese": 0.0,
+      "elem_germanium": 0.0,
+      "elem_Sc": 0.7544184377919039,
+      "elem_Ge": 0.0,
+      "elem_titanium": 0.0,
+      "elem_Sn": 0.018689348232252566,
+      "elem_iron": 0.0,
+      "elem_tin": 0.012013206880257416,
+      "elem_lithium": 0.0,
+      "elem_Ho": 6.13564595604141e-05,
+      "elem_Bi": 0.0,
+      "elem_cerium": 0.0,
+      "elem_Te": 0.0,
+      "elem_HA": 0.0,
+      "elem_Mn": 0.0011685925930204268,
+      "elem_RE": 0.0,
+      "elem_Ni": 0.0,
+      "elem_In": 0.0,
       "elem_RE (Er, Dy, Ho)": 0.0,
-      "elem_Ho": 0.0,
-      "melting_temperature": 2.2645443648937636e-05,
-      "annealing_temperature": 0.0,
-      "aging_temperature": 0.0,
-      "aging_time": 0.0,
-      "casting_method_encoded": 0.0,
-      "grain_size": 0.0
+      "elem_Cu": 0.0,
+      "elem_Ce/La": 0.0,
+      "elem_Sm": 0.0,
+      "elem_GNPs_volume_fraction": 0.0,
+      "elem_V": 0.0,
+      "elem_Si": 0.0,
+      "elem_strontium": 0.0,
+      "elem_gadolinium": 0.0,
+      "melting_temperature": 0.0,
+      "annealing_temperature": 0.0013753556382332575,
+      "aging_temperature": 0.002281374964665199,
+      "aging_time": 0.00016891678453700816,
+      "casting_method_encoded": 0.09578146185838587,
+      "grain_size": 0.0008582666294049234
     },
     "top_features": [
       [
-        "magnesium",
-        0.9689060372181193
+        "elem_Sc",
+        0.7544184377919039
+      ],
+      [
+        "casting_method_encoded",
+        0.09578146185838587
       ],
       [
         "copper",
-        0.016658849760864406
+        0.05010864453557645
       ],
       [
-        "elem_Gd",
-        0.01350162944931379
-      ],
-      [
-        "elem_Ca",
-        0.0007931426920029745
+        "elem_Sn",
+        0.018689348232252566
       ],
       [
         "zinc",
-        5.403100654862906e-05
+        0.017902711674243083
       ],
       [
-        "elem_Mn",
-        4.779082378427153e-05
+        "elem_Gd",
+        0.01288798992212922
       ],
       [
-        "melting_temperature",
-        2.2645443648937636e-05
+        "elem_tin",
+        0.012013206880257416
       ],
       [
         "elem_Zr",
-        7.989696391444235e-06
-      ],
-      [
-        "silver",
-        7.883909326102513e-06
+        0.008817330599803578
       ],
       [
         "aluminum",
-        0.0
+        0.0073647810683540186
+      ],
+      [
+        "magnesium",
+        0.005285455060844197
       ]
     ]
   },
   "elongation": {
     "model_type": "random_forest",
     "target_property": "elongation",
-    "train_samples": 10824,
-    "test_samples": 2707,
-    "n_features": 21,
-    "train_mse": 0.11840410287138038,
-    "train_rmse": 0.3440989724939329,
-    "train_mae": 0.22225549890394458,
-    "train_r2": 0.9972799295009138,
-    "test_mse": 0.11873979561561007,
-    "test_rmse": 0.3445864124071204,
-    "test_mae": 0.22000344111813994,
-    "test_r2": 0.9975885919086137,
-    "target_mean": 63.48392354479646,
-    "target_std": 6.597711113267066,
-    "target_min": 1.1,
-    "target_max": 82.2,
+    "train_samples": 1088,
+    "test_samples": 272,
+    "n_features": 59,
+    "train_mse": 64.82724783382899,
+    "train_rmse": 8.051536985807678,
+    "train_mae": 3.008845682947061,
+    "train_r2": 0.958615152806722,
+    "test_mse": 124.20701294619596,
+    "test_rmse": 11.144820005105329,
+    "test_mae": 4.149898583056704,
+    "test_r2": 0.8821867405682227,
+    "target_mean": 36.58803765052216,
+    "target_std": 39.57838914386993,
+    "target_min": 0.0,
+    "target_max": 376.0,
     "feature_importance": {
-      "zinc": 0.4952448973600137,
-      "magnesium": 0.04471109658988073,
-      "aluminum": 0.0,
-      "copper": 0.008964604922690658,
-      "silver": 1.6771777688813408e-05,
-      "elem_RE": 0.0,
-      "elem_Gd": 0.010400596016747825,
-      "elem_Zr": 1.5400555670144116e-05,
-      "elem_Mn": 0.4389352532908581,
+      "zinc": 0.5542167189514615,
+      "magnesium": 0.13240871671713977,
+      "aluminum": 0.004481958575230556,
+      "copper": 0.032482991301173374,
+      "silver": 0.0827074696177343,
+      "elem_Li": 5.088106927444143e-05,
+      "elem_Nd": 0.0006901295518033554,
+      "elem_Ca": 0.005877672214378518,
+      "elem_Ce": 0.0,
+      "elem_Fe": 0.0019139624587131985,
+      "elem_Zr": 0.011586945268939804,
+      "elem_zirconium": 1.399621544294052e-17,
+      "elem_Ga": 0.0,
+      "elem_La": 0.0,
+      "elem_Zn": 0.0,
+      "elem_calcium": 0.0,
+      "elem_LaMM": 0.0,
+      "elem_Sr": 0.004246137857765652,
       "elem_Er": 0.0,
-      "elem_Ca": 0.0016656155663895844,
       "elem_Dy": 0.0,
-      "elem_Li": 0.0,
+      "elem_Gd": 0.0012173399903309039,
+      "elem_Ti": 0.015810976583172903,
+      "elem_WE43": 0.0,
+      "elem_Y": 1.1860799548803593e-05,
+      "elem_Zn/Gd ratio": 0.0,
+      "elem_Cr": 0.0,
+      "elem_manganese": 0.0,
+      "elem_germanium": 0.0,
+      "elem_Sc": 0.0013135564672706623,
+      "elem_Ge": 0.0,
+      "elem_titanium": 0.0,
+      "elem_Sn": 4.103332736411128e-06,
+      "elem_iron": 0.0,
+      "elem_tin": 0.0,
+      "elem_lithium": 0.0,
+      "elem_Ho": 2.02635070602531e-05,
+      "elem_Bi": 0.0,
+      "elem_cerium": 0.0,
+      "elem_Te": 0.0,
+      "elem_HA": 0.0,
+      "elem_Mn": 0.08788424730077025,
+      "elem_RE": 0.0,
+      "elem_Ni": 0.0,
+      "elem_In": 0.0,
       "elem_RE (Er, Dy, Ho)": 0.0,
-      "elem_Ho": 0.0,
-      "melting_temperature": 4.57639200605324e-05,
-      "annealing_temperature": 0.0,
-      "aging_temperature": 0.0,
-      "aging_time": 0.0,
-      "casting_method_encoded": 0.0,
-      "grain_size": 0.0
+      "elem_Cu": 0.0,
+      "elem_Ce/La": 0.0,
+      "elem_Sm": 0.0,
+      "elem_GNPs_volume_fraction": 0.0,
+      "elem_V": 0.0,
+      "elem_Si": 0.0,
+      "elem_strontium": 0.0,
+      "elem_gadolinium": 0.0,
+      "melting_temperature": 6.278897391983463e-06,
+      "annealing_temperature": 0.007313606079471803,
+      "aging_temperature": 0.0005804159819485244,
+      "aging_time": 2.7575588662016016e-05,
+      "casting_method_encoded": 0.04721962734211375,
+      "grain_size": 0.007926564545907108
     },
     "top_features": [
       [
         "zinc",
-        0.4952448973600137
-      ],
-      [
-        "elem_Mn",
-        0.4389352532908581
+        0.5542167189514615
       ],
       [
         "magnesium",
-        0.04471109658988073
+        0.13240871671713977
       ],
       [
-        "elem_Gd",
-        0.010400596016747825
-      ],
-      [
-        "copper",
-        0.008964604922690658
-      ],
-      [
-        "elem_Ca",
-        0.0016656155663895844
-      ],
-      [
-        "melting_temperature",
-        4.57639200605324e-05
+        "elem_Mn",
+        0.08788424730077025
       ],
       [
         "silver",
-        1.6771777688813408e-05
+        0.0827074696177343
+      ],
+      [
+        "casting_method_encoded",
+        0.04721962734211375
+      ],
+      [
+        "copper",
+        0.032482991301173374
+      ],
+      [
+        "elem_Ti",
+        0.015810976583172903
       ],
       [
         "elem_Zr",
-        1.5400555670144116e-05
+        0.011586945268939804
       ],
       [
-        "aluminum",
-        0.0
+        "grain_size",
+        0.007926564545907108
+      ],
+      [
+        "annealing_temperature",
+        0.007313606079471803
       ]
     ]
   },
   "hardness": {
     "model_type": "random_forest",
     "target_property": "hardness",
-    "train_samples": 10824,
-    "test_samples": 2707,
-    "n_features": 21,
-    "train_mse": 0.18015044886372464,
-    "train_rmse": 0.4244413373644521,
-    "train_mae": 0.01381503763853048,
-    "train_r2": 0.3325877191686014,
-    "test_mse": 0.5050810990037938,
-    "test_rmse": 0.7106905789468394,
-    "test_mae": 0.020819934592551853,
-    "test_r2": 0.531630763175632,
-    "target_mean": 90.97074434866533,
-    "target_std": 0.5195418989836816,
-    "target_min": 90.94,
-    "target_max": 145.0,
+    "train_samples": 1088,
+    "test_samples": 272,
+    "n_features": 59,
+    "train_mse": 33.46472119206727,
+    "train_rmse": 5.784870023783358,
+    "train_mae": 1.0555112796485577,
+    "train_r2": 0.7069372858324792,
+    "test_mse": 199.82525541528142,
+    "test_rmse": 14.135956119600875,
+    "test_mae": 3.2239137944255303,
+    "test_r2": -0.1579760491732185,
+    "target_mean": 100.75478996072859,
+    "target_std": 10.685954528275241,
+    "target_min": 5.45,
+    "target_max": 190.7,
     "feature_importance": {
-      "zinc": 0.0,
-      "magnesium": 0.2635424772427325,
-      "aluminum": 0.0,
-      "copper": 0.13813666221771057,
-      "silver": 0.0004730254710702321,
-      "elem_RE": 0.0,
-      "elem_Gd": 0.22988373280701144,
-      "elem_Zr": 0.0004697919268627733,
-      "elem_Mn": 0.0,
+      "zinc": 0.19830580187564642,
+      "magnesium": 0.003726278972526798,
+      "aluminum": 0.0479075733021612,
+      "copper": 0.03932422558057383,
+      "silver": 0.00018382184407385205,
+      "elem_Li": 0.00039233724528577984,
+      "elem_Nd": 0.0,
+      "elem_Ca": 0.00032977459345135546,
+      "elem_Ce": 0.0007584904990258504,
+      "elem_Fe": 0.0,
+      "elem_Zr": 0.0033661095941865575,
+      "elem_zirconium": 0.0,
+      "elem_Ga": 0.0,
+      "elem_La": 0.0,
+      "elem_Zn": 0.0,
+      "elem_calcium": 0.0,
+      "elem_LaMM": 0.0,
+      "elem_Sr": 0.02878631554499168,
       "elem_Er": 0.0,
-      "elem_Ca": 0.3584282439023111,
       "elem_Dy": 0.0,
-      "elem_Li": 0.0,
+      "elem_Gd": 0.001655244517007096,
+      "elem_Ti": 0.004796033499490021,
+      "elem_WE43": 0.0,
+      "elem_Y": 0.0,
+      "elem_Zn/Gd ratio": 0.0,
+      "elem_Cr": 0.0,
+      "elem_manganese": 0.0,
+      "elem_germanium": 0.0,
+      "elem_Sc": 0.002790090445108489,
+      "elem_Ge": 0.0,
+      "elem_titanium": 0.0029404654429203213,
+      "elem_Sn": 0.0,
+      "elem_iron": 0.0,
+      "elem_tin": 0.0,
+      "elem_lithium": 0.0,
+      "elem_Ho": 0.0040083593225018225,
+      "elem_Bi": 0.0,
+      "elem_cerium": 0.0,
+      "elem_Te": 0.0,
+      "elem_HA": 0.01939831145557238,
+      "elem_Mn": 0.0018494694265487985,
+      "elem_RE": 0.0,
+      "elem_Ni": 0.0,
+      "elem_In": 0.0,
       "elem_RE (Er, Dy, Ho)": 0.0,
-      "elem_Ho": 0.0,
-      "melting_temperature": 0.009066066432301392,
+      "elem_Cu": 0.0,
+      "elem_Ce/La": 0.0,
+      "elem_Sm": 0.0,
+      "elem_GNPs_volume_fraction": 0.0,
+      "elem_V": 0.0,
+      "elem_Si": 0.020367525134569155,
+      "elem_strontium": 0.0,
+      "elem_gadolinium": 0.0,
+      "melting_temperature": 0.0,
       "annealing_temperature": 0.0,
-      "aging_temperature": 0.0,
-      "aging_time": 0.0,
-      "casting_method_encoded": 0.0,
-      "grain_size": 0.0
+      "aging_temperature": 0.3127880330278245,
+      "aging_time": 0.297131488541728,
+      "casting_method_encoded": 0.007258409740881182,
+      "grain_size": 0.0019358403939249505
     },
     "top_features": [
       [
-        "elem_Ca",
-        0.3584282439023111
+        "aging_temperature",
+        0.3127880330278245
       ],
       [
-        "magnesium",
-        0.2635424772427325
-      ],
-      [
-        "elem_Gd",
-        0.22988373280701144
-      ],
-      [
-        "copper",
-        0.13813666221771057
-      ],
-      [
-        "melting_temperature",
-        0.009066066432301392
-      ],
-      [
-        "silver",
-        0.0004730254710702321
-      ],
-      [
-        "elem_Zr",
-        0.0004697919268627733
+        "aging_time",
+        0.297131488541728
       ],
       [
         "zinc",
-        0.0
+        0.19830580187564642
       ],
       [
         "aluminum",
-        0.0
+        0.0479075733021612
       ],
       [
-        "elem_RE",
-        0.0
+        "copper",
+        0.03932422558057383
+      ],
+      [
+        "elem_Sr",
+        0.02878631554499168
+      ],
+      [
+        "elem_Si",
+        0.020367525134569155
+      ],
+      [
+        "elem_HA",
+        0.01939831145557238
+      ],
+      [
+        "casting_method_encoded",
+        0.007258409740881182
+      ],
+      [
+        "elem_Ti",
+        0.004796033499490021
       ]
     ]
   }
